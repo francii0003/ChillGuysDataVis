@@ -1,58 +1,166 @@
 
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First GitHub Pages Site</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <meta name="description"
+        content="Mapping the Impact of AI through Data - ChillGuys">
 
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #f8fafc;
-    }
+  <title>Mapping the Impact of AI through Data | ChillGuys</title>
 
-    .container {
-      text-align: center;
-      padding: 40px;
-    }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 16px;
-    }
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
-    p {
-      color: #94a3b8;
-      font-size: 1.2rem;
-    }
-
-    .badge {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      border-radius: 8px;
-      background: #2563eb;
-      color: white;
-    }
-  </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css\style.css">
 </head>
 
 <body>
-  <div class="container">
-    <h1>Hello, GitHub Pages! 🚀</h1>
-    <p>My first website deployed with GitHub Actions.</p>
-    <div class="badge">Deployment successful!</div>
-  </div>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="index.html" class="logo">CG<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#project">Project</a></li>
+        <li><a href="#visualizations">Visualizations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+
+        <p class="eyebrow">
+          DATA VISUALIZATION PROJECT / CHILLGUYS
+        </p>
+
+        <h1>
+          Mapping the Impact of
+          <span>AI</span> through Data.
+        </h1>
+
+        <p class="hero-description">
+          An interactive exploration of how artificial
+          intelligence is shaping our world through data
+          and visual storytelling.
+        </p>
+
+        <div class="group-info">
+          <span class="group-label">GROUP NAME</span>
+          <h2>ChillGuys</h2>
+          <p>Team members: To be announced</p>
+        </div>
+
+        <a href="#project" class="hero-link">
+          Explore the project &darr;
+        </a>
+
+      </div>
+    </section>
+
+    <!-- SECTION 1 -->
+    <section id="project" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-number">01 / THE PROJECT</span>
+          <h2>Work in <span>progress.</span></h2>
+        </div>
+
+        <div class="project-card">
+          <span class="status">
+            <span class="status-dot"></span>
+            UNDER DEVELOPMENT
+          </span>
+
+          <h3>Something interesting is coming.</h3>
+
+          <p>
+            We are currently developing our project on
+            Mapping the Impact of Artificial Intelligence
+            through Data.
+          </p>
+
+          <p>
+            The project description, datasets, methodology
+            and interactive visualizations will be added
+            as the work progresses.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FUTURE VISUALIZATIONS -->
+    <section id="visualizations" class="section section-alt">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-number">
+            02 / DATA VISUALIZATIONS
+          </span>
+
+          <h2>Explore the <span>data.</span></h2>
+
+          <p class="section-description">
+            This section will contain interactive
+            visualizations exploring different aspects
+            of artificial intelligence and its impact.
+          </p>
+        </div>
+
+        <div class="visualization-grid">
+
+          <article class="visualization-card">
+            <span class="card-number">01</span>
+            <h3>Visualization One</h3>
+            <p>
+              The first interactive visualization
+              will be available soon.
+            </p>
+            <span class="coming-soon">COMING SOON</span>
+          </article>
+
+          <article class="visualization-card">
+            <span class="card-number">02</span>
+            <h3>Visualization Two</h3>
+            <p>
+              Further data exploration and visual
+              analysis will be added here.
+            </p>
+            <span class="coming-soon">COMING SOON</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        &copy; 2026 ChillGuys
+      </p>
+
+      <p>
+        Mapping the Impact of AI through Data
+      </p>
+    </div>
+  </footer>
+
 </body>
 </html>

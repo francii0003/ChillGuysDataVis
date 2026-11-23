@@ -1,166 +1,106 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A data visualization project on the environmental costs of the infrastructure behind artificial intelligence: energy, water and land, and who bears them.">
+  <title>The Hidden Cost of Artificial Intelligence | Chill Guys</title>
 
-  <meta name="description"
-        content="Mapping the Impact of AI through Data - ChillGuys">
-
-  <title>Mapping the Impact of AI through Data | ChillGuys</title>
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Roboto+Slab:wght@400;600;700&amp;display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to the content</a>
 
-  <!-- NAVIGATION -->
   <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-      <a href="index.html" class="logo">CG<span>.</span></a>
-
-      <ul class="nav-links">
-        <li><a href="#project">Project</a></li>
-        <li><a href="#visualizations">Visualizations</a></li>
-      </ul>
-    </nav>
+    <div class="container site-bar">
+      <a class="site-name" href="index.html">The Hidden Cost of Artificial Intelligence | Chill Guys</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Introduction</a></li>
+          <li><a href="comparison.html">Comparison</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main id="main">
 
-    <!-- HERO -->
-    <section class="hero">
+    <div class="report-header">
       <div class="container">
+        <h1>The Hidden Cost of Artificial Intelligence: Energy, Water and Land Behind Every Prompt</h1>
+        <p class="subtitle">Chill Guys: Francesco Frattini, Mattia Di Luca and Mohamad Jaffal</p>
+        <p class="course-line">Data Visualization project, University of Genoa</p>
+        <p class="lead">Every answer from an AI system is produced in a data center, and every data center draws on electricity, water and land. This site asks what those costs are, how fast they are growing, and who bears them.</p>
+      </div>
+    </div>
 
-        <p class="eyebrow">
-          DATA VISUALIZATION PROJECT / CHILLGUYS
-        </p>
+    <section class="report-section" id="project" aria-labelledby="project-title">
+      <div class="container">
+        <h2 id="project-title">1 The project</h2>
 
-        <h1>
-          Mapping the Impact of
-          <span>AI</span> through Data.
-        </h1>
+        <h3>1.1 Main question</h3>
+        <p class="key-question">What are the environmental costs of the infrastructure behind AI (energy, water and land), and who bears them?</p>
 
-        <p class="hero-description">
-          An interactive exploration of how artificial
-          intelligence is shaping our world through data
-          and visual storytelling.
-        </p>
+        <p class="prose">Five supporting questions guide the visualizations:</p>
+        <ol class="questions prose">
+          <li>How much water does a single AI prompt use, and why do estimates differ so widely?</li>
+          <li>How fast is data center electricity demand growing, and what do scenarios project for 2030&ndash;2035?</li>
+          <li>Where are AI data centers concentrated, and which countries host them compared with those that benefit from them?</li>
+          <li>Which regions are most exposed in terms of local water and energy pressure, and how do energy mixes differ across countries?</li>
+          <li>How much do training runs of frontier models emit, and how is this changing over time?</li>
+        </ol>
 
-        <div class="group-info">
-          <span class="group-label">GROUP NAME</span>
-          <h2>ChillGuys</h2>
-          <p>Team members: To be announced</p>
-        </div>
+        <h3>1.2 Who this site is for</h3>
+        <p class="prose">General readers who are curious and informed but not experts, such as students and citizens. Technical terms (data center, TWh, water withdrawal versus consumption) are explained in plain language, and uncertainty is always shown openly.</p>
 
-        <a href="#project" class="hero-link">
-          Explore the project &darr;
-        </a>
-
+        <h3>1.3 Data at hand</h3>
+        <p class="prose">The charts published so far rely on three sources. Each chart states exactly which data it uses and what the data cannot tell.</p>
+        <ul class="source-list prose">
+          <li><a href="https://www.iea.org/data-and-statistics/data-product/energy-and-ai">IEA, Energy and AI</a>: electricity consumption of data centers by world region in 2020&ndash;2024, with a Base Case projection to 2030. It covers all data centers, not only those used for AI.</li>
+          <li><a href="https://epoch.ai/data/data-centers">Epoch AI, Frontier Data Centers</a>: location, power, owners and users of large AI data centers, built from public sources and satellite imagery. It is a selection of the largest sites, not a census.</li>
+          <li><a href="https://ember-energy.org/data/yearly-electricity-data/">Ember, Yearly Electricity Data</a>: electricity generation, mix and carbon intensity of national grids. It shows how clean the power is in the countries that host the data centers.</li>
+        </ul>
+        <p class="prose">Further sources will be added in later pages, including the <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">Stanford AI Index 2026</a>, Google&rsquo;s <a href="https://arxiv.org/html/2508.15734v1">measurement of AI inference at scale</a>, <a href="https://dl.acm.org/doi/10.1145/3724499">&ldquo;Making AI Less Thirsty&rdquo;</a> and the <a href="https://eta-publications.lbl.gov/publications/2024-lbnl-data-center-energy-usage-report">Berkeley Lab report on US data centers</a>.</p>
+        <p class="note">Most figures on data centers do not separate AI workloads from other uses, and per-prompt water estimates vary with the model, the prompt and the location. The visualizations flag these limits where they matter.</p>
       </div>
     </section>
 
-    <!-- SECTION 1 -->
-    <section id="project" class="section">
+    <section class="report-section" id="comparison" aria-labelledby="comparison-title">
       <div class="container">
-
-        <div class="section-heading">
-          <span class="section-number">01 / THE PROJECT</span>
-          <h2>Work in <span>progress.</span></h2>
-        </div>
-
-        <div class="project-card">
-          <span class="status">
-            <span class="status-dot"></span>
-            UNDER DEVELOPMENT
-          </span>
-
-          <h3>Something interesting is coming.</h3>
-
-          <p>
-            We are currently developing our project on
-            Mapping the Impact of Artificial Intelligence
-            through Data.
-          </p>
-
-          <p>
-            The project description, datasets, methodology
-            and interactive visualizations will be added
-            as the work progresses.
-          </p>
-        </div>
-
+        <h2 id="comparison-title">2 Comparison charts</h2>
+        <p class="prose">Who hosts the infrastructure behind AI, who owns it, and what powers it? This page compares world regions, companies and countries with bar charts, a heatmap, a waffle chart and a few extra views.</p>
+        <p><a class="page-link" href="comparison.html">Open the comparison charts</a></p>
       </div>
     </section>
 
-    <!-- FUTURE VISUALIZATIONS -->
-    <section id="visualizations" class="section section-alt">
+    <section class="report-section" id="next" aria-labelledby="next-title">
       <div class="container">
-
-        <div class="section-heading">
-          <span class="section-number">
-            02 / DATA VISUALIZATIONS
-          </span>
-
-          <h2>Explore the <span>data.</span></h2>
-
-          <p class="section-description">
-            This section will contain interactive
-            visualizations exploring different aspects
-            of artificial intelligence and its impact.
-          </p>
-        </div>
-
-        <div class="visualization-grid">
-
-          <article class="visualization-card">
-            <span class="card-number">01</span>
-            <h3>Visualization One</h3>
-            <p>
-              The first interactive visualization
-              will be available soon.
-            </p>
-            <span class="coming-soon">COMING SOON</span>
-          </article>
-
-          <article class="visualization-card">
-            <span class="card-number">02</span>
-            <h3>Visualization Two</h3>
-            <p>
-              Further data exploration and visual
-              analysis will be added here.
-            </p>
-            <span class="coming-soon">COMING SOON</span>
-          </article>
-
-        </div>
+        <h2 id="next-title">3 Coming next</h2>
+        <p class="prose">One new page is added roughly every week, following the course:</p>
+        <ul class="prose">
+          <li>Distributions</li>
+          <li>Change over time and event timelines</li>
+          <li>Spatial information on maps</li>
+          <li>Infographic summaries combining icons and numbers</li>
+          <li>Network visualization (optional)</li>
+        </ul>
+        <p class="note">When all pages are done, the charts will be reorganised into a single story.</p>
       </div>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>
-        &copy; 2026 ChillGuys
-      </p>
-
-      <p>
-        Mapping the Impact of AI through Data
-      </p>
+    <div class="container">
+      <p>Data: IEA, Epoch AI and Ember. See each chart for the exact dataset, year and limitations.</p>
+      <p>Chill Guys, Data Visualization project, University of Genoa. Colours and fonts follow the UniGe visual identity (<a href="https://id.unige.it">id.unige.it</a>).</p>
+      <!-- TODO: add the official UniGe logo from id.unige.it/download (put it in an img/ folder). -->
     </div>
   </footer>
-
 </body>
 </html>

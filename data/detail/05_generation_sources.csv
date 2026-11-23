@@ -1,0 +1,847 @@
+country,year,macroarea,order,total_twh,source,category,generation_twh,share_pct,source_status
+Argentina,2025,Rest of the world,7,153.349,Coal,Fossil,1.353,0.882,reported
+Argentina,2025,Rest of the world,7,153.349,Gas,Fossil,85.857,55.988,reported
+Argentina,2025,Rest of the world,7,153.349,Other fossil,Fossil,3.495,2.279,reported
+Argentina,2025,Rest of the world,7,153.349,Hydro,Renewables,24.973,16.285,reported
+Argentina,2025,Rest of the world,7,153.349,Wind,Renewables,18.632,12.15,reported
+Argentina,2025,Rest of the world,7,153.349,Solar,Renewables,5.155,3.362,reported
+Argentina,2025,Rest of the world,7,153.349,Bioenergy,Renewables,3.124,2.037,reported
+Argentina,2025,Rest of the world,7,153.349,Other renewables,Renewables,,,absent_in_source
+Argentina,2025,Rest of the world,7,153.349,Nuclear,Nuclear,10.761,7.017,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Coal,Fossil,0,0,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Gas,Fossil,3.358,39.487,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Other fossil,Fossil,0.02,0.235,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Hydro,Renewables,1.722,20.249,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Wind,Renewables,0,0,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Solar,Renewables,0.744,8.749,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Bioenergy,Renewables,0,0,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Other renewables,Renewables,0,0,reported
+Armenia,2025,Rest of Asia Pacific,8,8.504,Nuclear,Nuclear,2.661,31.291,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Coal,Fossil,122.658,42.899,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Gas,Fossil,44.219,15.465,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Other fossil,Fossil,5.356,1.873,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Hydro,Renewables,12.611,4.411,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Wind,Renewables,39.594,13.848,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Solar,Renewables,58.381,20.418,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Bioenergy,Renewables,3.105,1.086,reported
+Australia,2025,Rest of Asia Pacific,10,285.922,Other renewables,Renewables,,,absent_in_source
+Australia,2025,Rest of Asia Pacific,10,285.922,Nuclear,Nuclear,0,0,reported
+Austria,2025,Europe,11,73.239,Coal,Fossil,0,0,reported
+Austria,2025,Europe,11,73.239,Gas,Fossil,8.708,11.89,reported
+Austria,2025,Europe,11,73.239,Other fossil,Fossil,3.267,4.461,reported
+Austria,2025,Europe,11,73.239,Hydro,Renewables,38.012,51.901,reported
+Austria,2025,Europe,11,73.239,Wind,Renewables,8.321,11.361,reported
+Austria,2025,Europe,11,73.239,Solar,Renewables,10.304,14.069,reported
+Austria,2025,Europe,11,73.239,Bioenergy,Renewables,4.626,6.316,reported
+Austria,2025,Europe,11,73.239,Other renewables,Renewables,0,0,reported
+Austria,2025,Europe,11,73.239,Nuclear,Nuclear,0,0,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Coal,Fossil,0,0,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Gas,Fossil,24.628,88.719,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Other fossil,Fossil,0.07,0.252,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Hydro,Renewables,2.835,10.213,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Wind,Renewables,0.094,0.339,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Solar,Renewables,0.033,0.119,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Bioenergy,Renewables,0.1,0.36,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Other renewables,Renewables,0,0,reported
+Azerbaijan,2025,Rest of Asia Pacific,12,27.759,Nuclear,Nuclear,0,0,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Coal,Fossil,22.252,21.522,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Gas,Fossil,66.47,64.29,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Other fossil,Fossil,12.457,12.048,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Hydro,Renewables,0.642,0.621,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Wind,Renewables,0,0,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Solar,Renewables,1.57,1.519,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Bioenergy,Renewables,0,0,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Other renewables,Renewables,0,0,reported
+Bangladesh,2025,Rest of Asia Pacific,15,103.391,Nuclear,Nuclear,0,0,reported
+Belarus,2025,Europe,17,45.429,Coal,Fossil,0.019,0.042,reported
+Belarus,2025,Europe,17,45.429,Gas,Fossil,25.51,56.153,reported
+Belarus,2025,Europe,17,45.429,Other fossil,Fossil,1.668,3.672,reported
+Belarus,2025,Europe,17,45.429,Hydro,Renewables,0.336,0.74,reported
+Belarus,2025,Europe,17,45.429,Wind,Renewables,0.208,0.458,reported
+Belarus,2025,Europe,17,45.429,Solar,Renewables,0.155,0.341,reported
+Belarus,2025,Europe,17,45.429,Bioenergy,Renewables,0.558,1.228,reported
+Belarus,2025,Europe,17,45.429,Other renewables,Renewables,0,0,reported
+Belarus,2025,Europe,17,45.429,Nuclear,Nuclear,16.977,37.37,reported
+Belgium,2025,Europe,18,72.08,Coal,Fossil,0,0,reported
+Belgium,2025,Europe,18,72.08,Gas,Fossil,14.979,20.781,reported
+Belgium,2025,Europe,18,72.08,Other fossil,Fossil,5.152,7.148,reported
+Belgium,2025,Europe,18,72.08,Hydro,Renewables,0.254,0.352,reported
+Belgium,2025,Europe,18,72.08,Wind,Renewables,13.432,18.635,reported
+Belgium,2025,Europe,18,72.08,Solar,Renewables,10.434,14.476,reported
+Belgium,2025,Europe,18,72.08,Bioenergy,Renewables,3.682,5.108,reported
+Belgium,2025,Europe,18,72.08,Other renewables,Renewables,0,0,reported
+Belgium,2025,Europe,18,72.08,Nuclear,Nuclear,24.147,33.5,reported
+Bolivia,2025,Rest of the world,22,13.62,Coal,Fossil,0,0,reported
+Bolivia,2025,Rest of the world,22,13.62,Gas,Fossil,8.503,62.429,reported
+Bolivia,2025,Rest of the world,22,13.62,Other fossil,Fossil,0.2,1.468,reported
+Bolivia,2025,Rest of the world,22,13.62,Hydro,Renewables,3.802,27.914,reported
+Bolivia,2025,Rest of the world,22,13.62,Wind,Renewables,0.273,2.004,reported
+Bolivia,2025,Rest of the world,22,13.62,Solar,Renewables,0.407,2.988,reported
+Bolivia,2025,Rest of the world,22,13.62,Bioenergy,Renewables,0.436,3.201,reported
+Bolivia,2025,Rest of the world,22,13.62,Other renewables,Renewables,0,0,reported
+Bolivia,2025,Rest of the world,22,13.62,Nuclear,Nuclear,0,0,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Coal,Fossil,8.109,55.789,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Gas,Fossil,0,0,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Other fossil,Fossil,0.129,0.888,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Hydro,Renewables,5.288,36.381,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Wind,Renewables,0.384,2.642,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Solar,Renewables,0.584,4.018,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Bioenergy,Renewables,0.04,0.275,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Other renewables,Renewables,0,0,reported
+Bosnia Herzegovina,2025,Europe,23,14.535,Nuclear,Nuclear,0,0,reported
+Brazil,2025,Rest of the world,25,763.673,Coal,Fossil,15.622,2.046,reported
+Brazil,2025,Rest of the world,25,763.673,Gas,Fossil,59.401,7.778,reported
+Brazil,2025,Rest of the world,25,763.673,Other fossil,Fossil,9.507,1.245,reported
+Brazil,2025,Rest of the world,25,763.673,Hydro,Renewables,397.896,52.103,reported
+Brazil,2025,Rest of the world,25,763.673,Wind,Renewables,115.837,15.168,reported
+Brazil,2025,Rest of the world,25,763.673,Solar,Renewables,88.016,11.525,reported
+Brazil,2025,Rest of the world,25,763.673,Bioenergy,Renewables,61.596,8.066,reported
+Brazil,2025,Rest of the world,25,763.673,Other renewables,Renewables,,,absent_in_source
+Brazil,2025,Rest of the world,25,763.673,Nuclear,Nuclear,15.797,2.069,reported
+Bulgaria,2025,Europe,27,38.072,Coal,Fossil,8.584,22.547,reported
+Bulgaria,2025,Europe,27,38.072,Gas,Fossil,1.861,4.888,reported
+Bulgaria,2025,Europe,27,38.072,Other fossil,Fossil,0.261,0.686,reported
+Bulgaria,2025,Europe,27,38.072,Hydro,Renewables,2.545,6.685,reported
+Bulgaria,2025,Europe,27,38.072,Wind,Renewables,1.345,3.533,reported
+Bulgaria,2025,Europe,27,38.072,Solar,Renewables,6.933,18.21,reported
+Bulgaria,2025,Europe,27,38.072,Bioenergy,Renewables,1.685,4.426,reported
+Bulgaria,2025,Europe,27,38.072,Other renewables,Renewables,0,0,reported
+Bulgaria,2025,Europe,27,38.072,Nuclear,Nuclear,14.858,39.026,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Coal,Fossil,10.05,56.588,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Gas,Fossil,,,absent_in_source
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Other fossil,Fossil,0.45,2.534,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Hydro,Renewables,5.31,29.899,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Wind,Renewables,,,absent_in_source
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Solar,Renewables,1.89,10.642,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Bioenergy,Renewables,0.06,0.338,reported
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Other renewables,Renewables,,,absent_in_source
+Cambodia,2025,Rest of Asia Pacific,31,17.76,Nuclear,Nuclear,,,absent_in_source
+Canada,2025,Rest of the world,33,660.182,Coal,Fossil,17.52,2.654,reported
+Canada,2025,Rest of the world,33,660.182,Gas,Fossil,130.078,19.703,reported
+Canada,2025,Rest of the world,33,660.182,Other fossil,Fossil,7.706,1.167,reported
+Canada,2025,Rest of the world,33,660.182,Hydro,Renewables,348.474,52.785,reported
+Canada,2025,Rest of the world,33,660.182,Wind,Renewables,52.585,7.965,reported
+Canada,2025,Rest of the world,33,660.182,Solar,Renewables,9.036,1.369,reported
+Canada,2025,Rest of the world,33,660.182,Bioenergy,Renewables,9.957,1.508,reported
+Canada,2025,Rest of the world,33,660.182,Other renewables,Renewables,,,absent_in_source
+Canada,2025,Rest of the world,33,660.182,Nuclear,Nuclear,84.826,12.849,reported
+Chile,2025,Rest of the world,37,88.5,Coal,Fossil,15.72,17.763,reported
+Chile,2025,Rest of the world,37,88.5,Gas,Fossil,13.54,15.299,reported
+Chile,2025,Rest of the world,37,88.5,Other fossil,Fossil,0.5,0.565,reported
+Chile,2025,Rest of the world,37,88.5,Hydro,Renewables,19.68,22.237,reported
+Chile,2025,Rest of the world,37,88.5,Wind,Renewables,11.58,13.085,reported
+Chile,2025,Rest of the world,37,88.5,Solar,Renewables,22.18,25.062,reported
+Chile,2025,Rest of the world,37,88.5,Bioenergy,Renewables,5.03,5.684,reported
+Chile,2025,Rest of the world,37,88.5,Other renewables,Renewables,0.27,0.305,reported
+Chile,2025,Rest of the world,37,88.5,Nuclear,Nuclear,0,0,reported
+China,2025,China,38,10505.74,Coal,Fossil,5755.915,54.788,reported
+China,2025,China,38,10505.74,Gas,Fossil,337.61,3.214,reported
+China,2025,China,38,10505.74,Other fossil,Fossil,97.026,0.924,reported
+China,2025,China,38,10505.74,Hydro,Renewables,1392.157,13.251,reported
+China,2025,China,38,10505.74,Wind,Renewables,1127.92,10.736,reported
+China,2025,China,38,10505.74,Solar,Renewables,1173.24,11.168,reported
+China,2025,China,38,10505.74,Bioenergy,Renewables,136.642,1.301,reported
+China,2025,China,38,10505.74,Other renewables,Renewables,,,absent_in_source
+China,2025,China,38,10505.74,Nuclear,Nuclear,485.23,4.619,reported
+Colombia,2025,Rest of the world,39,90.424,Coal,Fossil,5.018,5.549,reported
+Colombia,2025,Rest of the world,39,90.424,Gas,Fossil,11.891,13.15,reported
+Colombia,2025,Rest of the world,39,90.424,Other fossil,Fossil,3.936,4.353,reported
+Colombia,2025,Rest of the world,39,90.424,Hydro,Renewables,62.495,69.113,reported
+Colombia,2025,Rest of the world,39,90.424,Wind,Renewables,0.151,0.167,reported
+Colombia,2025,Rest of the world,39,90.424,Solar,Renewables,4.602,5.089,reported
+Colombia,2025,Rest of the world,39,90.424,Bioenergy,Renewables,2.332,2.579,reported
+Colombia,2025,Rest of the world,39,90.424,Other renewables,Renewables,0,0,reported
+Colombia,2025,Rest of the world,39,90.424,Nuclear,Nuclear,0,0,reported
+Costa Rica,2025,Rest of the world,44,12.936,Coal,Fossil,0,0,reported
+Costa Rica,2025,Rest of the world,44,12.936,Gas,Fossil,0,0,reported
+Costa Rica,2025,Rest of the world,44,12.936,Other fossil,Fossil,0.001,0.008,reported
+Costa Rica,2025,Rest of the world,44,12.936,Hydro,Renewables,9.689,74.902,reported
+Costa Rica,2025,Rest of the world,44,12.936,Wind,Renewables,1.55,11.982,reported
+Costa Rica,2025,Rest of the world,44,12.936,Solar,Renewables,0.107,0.827,reported
+Costa Rica,2025,Rest of the world,44,12.936,Bioenergy,Renewables,0.056,0.433,reported
+Costa Rica,2025,Rest of the world,44,12.936,Other renewables,Renewables,1.533,11.851,reported
+Costa Rica,2025,Rest of the world,44,12.936,Nuclear,Nuclear,0,0,reported
+Croatia,2025,Europe,46,14.724,Coal,Fossil,0.733,4.978,reported
+Croatia,2025,Europe,46,14.724,Gas,Fossil,2.745,18.643,reported
+Croatia,2025,Europe,46,14.724,Other fossil,Fossil,0.008,0.054,reported
+Croatia,2025,Europe,46,14.724,Hydro,Renewables,5.785,39.289,reported
+Croatia,2025,Europe,46,14.724,Wind,Renewables,3.123,21.21,reported
+Croatia,2025,Europe,46,14.724,Solar,Renewables,1.314,8.924,reported
+Croatia,2025,Europe,46,14.724,Bioenergy,Renewables,1.004,6.819,reported
+Croatia,2025,Europe,46,14.724,Other renewables,Renewables,0.013,0.088,reported
+Croatia,2025,Europe,46,14.724,Nuclear,Nuclear,0,0,reported
+Cyprus,2025,Europe,48,5.774,Coal,Fossil,0,0,reported
+Cyprus,2025,Europe,48,5.774,Gas,Fossil,0,0,reported
+Cyprus,2025,Europe,48,5.774,Other fossil,Fossil,4.327,74.934,reported
+Cyprus,2025,Europe,48,5.774,Hydro,Renewables,0,0,reported
+Cyprus,2025,Europe,48,5.774,Wind,Renewables,0.209,3.619,reported
+Cyprus,2025,Europe,48,5.774,Solar,Renewables,1.187,20.556,reported
+Cyprus,2025,Europe,48,5.774,Bioenergy,Renewables,0.052,0.901,reported
+Cyprus,2025,Europe,48,5.774,Other renewables,Renewables,0,0,reported
+Cyprus,2025,Europe,48,5.774,Nuclear,Nuclear,0,0,reported
+Czechia,2025,Europe,49,75.526,Coal,Fossil,26.564,35.172,reported
+Czechia,2025,Europe,49,75.526,Gas,Fossil,4.082,5.405,reported
+Czechia,2025,Europe,49,75.526,Other fossil,Fossil,0.153,0.203,reported
+Czechia,2025,Europe,49,75.526,Hydro,Renewables,1.723,2.281,reported
+Czechia,2025,Europe,49,75.526,Wind,Renewables,0.599,0.793,reported
+Czechia,2025,Europe,49,75.526,Solar,Renewables,4.392,5.815,reported
+Czechia,2025,Europe,49,75.526,Bioenergy,Renewables,6.065,8.03,reported
+Czechia,2025,Europe,49,75.526,Other renewables,Renewables,0,0,reported
+Czechia,2025,Europe,49,75.526,Nuclear,Nuclear,31.948,42.301,reported
+Denmark,2025,Europe,50,35.613,Coal,Fossil,0.896,2.516,reported
+Denmark,2025,Europe,50,35.613,Gas,Fossil,0.518,1.455,reported
+Denmark,2025,Europe,50,35.613,Other fossil,Fossil,1.736,4.875,reported
+Denmark,2025,Europe,50,35.613,Hydro,Renewables,0.015,0.042,reported
+Denmark,2025,Europe,50,35.613,Wind,Renewables,20.273,56.927,reported
+Denmark,2025,Europe,50,35.613,Solar,Renewables,4.563,12.813,reported
+Denmark,2025,Europe,50,35.613,Bioenergy,Renewables,7.611,21.372,reported
+Denmark,2025,Europe,50,35.613,Other renewables,Renewables,0,0,reported
+Denmark,2025,Europe,50,35.613,Nuclear,Nuclear,0,0,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Coal,Fossil,6.587,29.109,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Gas,Fossil,6.056,26.762,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Other fossil,Fossil,4.611,20.377,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Hydro,Renewables,1.536,6.788,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Wind,Renewables,1.408,6.222,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Solar,Renewables,2.254,9.961,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Bioenergy,Renewables,0.177,0.782,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Other renewables,Renewables,0,0,reported
+Dominican Republic,2025,Rest of the world,53,22.629,Nuclear,Nuclear,0,0,reported
+Ecuador,2025,Rest of the world,54,36.578,Coal,Fossil,0,0,reported
+Ecuador,2025,Rest of the world,54,36.578,Gas,Fossil,0.961,2.627,reported
+Ecuador,2025,Rest of the world,54,36.578,Other fossil,Fossil,6.563,17.942,reported
+Ecuador,2025,Rest of the world,54,36.578,Hydro,Renewables,28.515,77.956,reported
+Ecuador,2025,Rest of the world,54,36.578,Wind,Renewables,0.195,0.533,reported
+Ecuador,2025,Rest of the world,54,36.578,Solar,Renewables,0.038,0.104,reported
+Ecuador,2025,Rest of the world,54,36.578,Bioenergy,Renewables,0.307,0.839,reported
+Ecuador,2025,Rest of the world,54,36.578,Other renewables,Renewables,0,0,reported
+Ecuador,2025,Rest of the world,54,36.578,Nuclear,Nuclear,0,0,reported
+Egypt,2025,Rest of the world,55,242.418,Coal,Fossil,0,0,reported
+Egypt,2025,Rest of the world,55,242.418,Gas,Fossil,184.428,76.078,reported
+Egypt,2025,Rest of the world,55,242.418,Other fossil,Fossil,23.89,9.855,reported
+Egypt,2025,Rest of the world,55,242.418,Hydro,Renewables,14.84,6.122,reported
+Egypt,2025,Rest of the world,55,242.418,Wind,Renewables,9.928,4.095,reported
+Egypt,2025,Rest of the world,55,242.418,Solar,Renewables,9.332,3.85,reported
+Egypt,2025,Rest of the world,55,242.418,Bioenergy,Renewables,0,0,reported
+Egypt,2025,Rest of the world,55,242.418,Other renewables,Renewables,,,absent_in_source
+Egypt,2025,Rest of the world,55,242.418,Nuclear,Nuclear,,,absent_in_source
+El Salvador,2025,Rest of the world,56,6.57,Coal,Fossil,,,absent_in_source
+El Salvador,2025,Rest of the world,56,6.57,Gas,Fossil,,,absent_in_source
+El Salvador,2025,Rest of the world,56,6.57,Other fossil,Fossil,0.443,6.743,reported
+El Salvador,2025,Rest of the world,56,6.57,Hydro,Renewables,2.106,32.054,reported
+El Salvador,2025,Rest of the world,56,6.57,Wind,Renewables,0.175,2.664,reported
+El Salvador,2025,Rest of the world,56,6.57,Solar,Renewables,1.466,22.313,reported
+El Salvador,2025,Rest of the world,56,6.57,Bioenergy,Renewables,0.793,12.07,reported
+El Salvador,2025,Rest of the world,56,6.57,Other renewables,Renewables,1.587,24.155,reported
+El Salvador,2025,Rest of the world,56,6.57,Nuclear,Nuclear,,,absent_in_source
+Estonia,2025,Europe,59,6.139,Coal,Fossil,0.002,0.033,reported
+Estonia,2025,Europe,59,6.139,Gas,Fossil,0.082,1.336,reported
+Estonia,2025,Europe,59,6.139,Other fossil,Fossil,2.385,38.849,reported
+Estonia,2025,Europe,59,6.139,Hydro,Renewables,0.031,0.505,reported
+Estonia,2025,Europe,59,6.139,Wind,Renewables,1.14,18.57,reported
+Estonia,2025,Europe,59,6.139,Solar,Renewables,1.163,18.944,reported
+Estonia,2025,Europe,59,6.139,Bioenergy,Renewables,1.337,21.778,reported
+Estonia,2025,Europe,59,6.139,Other renewables,Renewables,0,0,reported
+Estonia,2025,Europe,59,6.139,Nuclear,Nuclear,0,0,reported
+Ethiopia,2025,Rest of the world,61,33.37,Coal,Fossil,0,0,reported
+Ethiopia,2025,Rest of the world,61,33.37,Gas,Fossil,0,0,reported
+Ethiopia,2025,Rest of the world,61,33.37,Other fossil,Fossil,0,0,reported
+Ethiopia,2025,Rest of the world,61,33.37,Hydro,Renewables,32.19,96.464,reported
+Ethiopia,2025,Rest of the world,61,33.37,Wind,Renewables,1.1,3.296,reported
+Ethiopia,2025,Rest of the world,61,33.37,Solar,Renewables,0.04,0.12,reported
+Ethiopia,2025,Rest of the world,61,33.37,Bioenergy,Renewables,0.01,0.03,reported
+Ethiopia,2025,Rest of the world,61,33.37,Other renewables,Renewables,0.03,0.09,reported
+Ethiopia,2025,Rest of the world,61,33.37,Nuclear,Nuclear,0,0,reported
+Finland,2025,Europe,65,82.483,Coal,Fossil,0.3,0.364,reported
+Finland,2025,Europe,65,82.483,Gas,Fossil,0.94,1.14,reported
+Finland,2025,Europe,65,82.483,Other fossil,Fossil,1.897,2.3,reported
+Finland,2025,Europe,65,82.483,Hydro,Renewables,12.464,15.111,reported
+Finland,2025,Europe,65,82.483,Wind,Renewables,22.629,27.435,reported
+Finland,2025,Europe,65,82.483,Solar,Renewables,0.978,1.186,reported
+Finland,2025,Europe,65,82.483,Bioenergy,Renewables,10.347,12.544,reported
+Finland,2025,Europe,65,82.483,Other renewables,Renewables,0.123,0.149,reported
+Finland,2025,Europe,65,82.483,Nuclear,Nuclear,32.804,39.771,reported
+France,2025,Europe,66,574.372,Coal,Fossil,1.746,0.304,reported
+France,2025,Europe,66,574.372,Gas,Fossil,17.228,2.999,reported
+France,2025,Europe,66,574.372,Other fossil,Fossil,10.358,1.803,reported
+France,2025,Europe,66,574.372,Hydro,Renewables,59.418,10.345,reported
+France,2025,Europe,66,574.372,Wind,Renewables,50.735,8.833,reported
+France,2025,Europe,66,574.372,Solar,Renewables,32.013,5.574,reported
+France,2025,Europe,66,574.372,Bioenergy,Renewables,10.255,1.785,reported
+France,2025,Europe,66,574.372,Other renewables,Renewables,0.57,0.099,reported
+France,2025,Europe,66,574.372,Nuclear,Nuclear,392.048,68.257,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Coal,Fossil,0,0,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Gas,Fossil,2.765,20.478,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Other fossil,Fossil,0,0,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Hydro,Renewables,10.642,78.815,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Wind,Renewables,0.092,0.681,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Solar,Renewables,0.004,0.03,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Bioenergy,Renewables,0,0,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Other renewables,Renewables,0,0,reported
+Georgia,2025,Rest of Asia Pacific,71,13.502,Nuclear,Nuclear,0,0,reported
+Germany,2025,Europe,72,497.035,Coal,Fossil,104.262,20.977,reported
+Germany,2025,Europe,72,497.035,Gas,Fossil,83.498,16.799,reported
+Germany,2025,Europe,72,497.035,Other fossil,Fossil,18.705,3.763,reported
+Germany,2025,Europe,72,497.035,Hydro,Renewables,18.278,3.677,reported
+Germany,2025,Europe,72,497.035,Wind,Renewables,132.272,26.612,reported
+Germany,2025,Europe,72,497.035,Solar,Renewables,89.704,18.048,reported
+Germany,2025,Europe,72,497.035,Bioenergy,Renewables,50.089,10.078,reported
+Germany,2025,Europe,72,497.035,Other renewables,Renewables,0.227,0.046,reported
+Germany,2025,Europe,72,497.035,Nuclear,Nuclear,0,0,reported
+Greece,2025,Europe,74,57.928,Coal,Fossil,2.747,4.742,reported
+Greece,2025,Europe,74,57.928,Gas,Fossil,23.318,40.253,reported
+Greece,2025,Europe,74,57.928,Other fossil,Fossil,4.18,7.216,reported
+Greece,2025,Europe,74,57.928,Hydro,Renewables,3.43,5.921,reported
+Greece,2025,Europe,74,57.928,Wind,Renewables,12.098,20.885,reported
+Greece,2025,Europe,74,57.928,Solar,Renewables,11.38,19.645,reported
+Greece,2025,Europe,74,57.928,Bioenergy,Renewables,0.774,1.336,reported
+Greece,2025,Europe,74,57.928,Other renewables,Renewables,0,0,reported
+Greece,2025,Europe,74,57.928,Nuclear,Nuclear,0,0,reported
+Hungary,2025,Europe,86,40.125,Coal,Fossil,1.334,3.325,reported
+Hungary,2025,Europe,86,40.125,Gas,Fossil,8.155,20.324,reported
+Hungary,2025,Europe,86,40.125,Other fossil,Fossil,0.396,0.987,reported
+Hungary,2025,Europe,86,40.125,Hydro,Renewables,0.249,0.621,reported
+Hungary,2025,Europe,86,40.125,Wind,Renewables,0.595,1.483,reported
+Hungary,2025,Europe,86,40.125,Solar,Renewables,10.883,27.123,reported
+Hungary,2025,Europe,86,40.125,Bioenergy,Renewables,2.402,5.986,reported
+Hungary,2025,Europe,86,40.125,Other renewables,Renewables,0.023,0.057,reported
+Hungary,2025,Europe,86,40.125,Nuclear,Nuclear,16.089,40.097,reported
+Iceland,2025,Europe,87,18.266,Coal,Fossil,0,0,reported
+Iceland,2025,Europe,87,18.266,Gas,Fossil,0,0,reported
+Iceland,2025,Europe,87,18.266,Other fossil,Fossil,0,0,reported
+Iceland,2025,Europe,87,18.266,Hydro,Renewables,13.013,71.243,reported
+Iceland,2025,Europe,87,18.266,Wind,Renewables,0.008,0.044,reported
+Iceland,2025,Europe,87,18.266,Solar,Renewables,0.01,0.055,reported
+Iceland,2025,Europe,87,18.266,Bioenergy,Renewables,0,0,reported
+Iceland,2025,Europe,87,18.266,Other renewables,Renewables,5.235,28.66,reported
+Iceland,2025,Europe,87,18.266,Nuclear,Nuclear,0,0,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Coal,Fossil,1474.156,70.867,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Gas,Fossil,48.516,2.332,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Other fossil,Fossil,4.095,0.197,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Hydro,Renewables,177.95,8.555,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Wind,Renewables,104.002,5,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Solar,Renewables,194.599,9.355,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Bioenergy,Renewables,23.033,1.107,reported
+India,2025,Rest of Asia Pacific,88,2080.163,Other renewables,Renewables,,,absent_in_source
+India,2025,Rest of Asia Pacific,88,2080.163,Nuclear,Nuclear,53.811,2.587,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Coal,Fossil,366.459,69.378,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Gas,Fossil,61.341,11.613,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Other fossil,Fossil,16.914,3.202,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Hydro,Renewables,35.569,6.734,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Wind,Renewables,0.384,0.073,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Solar,Renewables,1.592,0.301,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Bioenergy,Renewables,28.2,5.339,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Other renewables,Renewables,17.748,3.36,reported
+Indonesia,2025,Rest of Asia Pacific,89,528.207,Nuclear,Nuclear,,,absent_in_source
+Iran,2025,Rest of the world,90,398.68,Coal,Fossil,0.744,0.187,reported
+Iran,2025,Rest of the world,90,398.68,Gas,Fossil,292.204,73.293,reported
+Iran,2025,Rest of the world,90,398.68,Other fossil,Fossil,84.977,21.315,reported
+Iran,2025,Rest of the world,90,398.68,Hydro,Renewables,11.958,2.999,reported
+Iran,2025,Rest of the world,90,398.68,Wind,Renewables,1.172,0.294,reported
+Iran,2025,Rest of the world,90,398.68,Solar,Renewables,2.203,0.553,reported
+Iran,2025,Rest of the world,90,398.68,Bioenergy,Renewables,0.034,0.009,reported
+Iran,2025,Rest of the world,90,398.68,Other renewables,Renewables,,,absent_in_source
+Iran,2025,Rest of the world,90,398.68,Nuclear,Nuclear,5.388,1.351,reported
+Ireland,2025,Europe,92,31.601,Coal,Fossil,0.799,2.528,reported
+Ireland,2025,Europe,92,31.601,Gas,Fossil,14.986,47.422,reported
+Ireland,2025,Europe,92,31.601,Other fossil,Fossil,0.9,2.848,reported
+Ireland,2025,Europe,92,31.601,Hydro,Renewables,0.652,2.063,reported
+Ireland,2025,Europe,92,31.601,Wind,Renewables,11.774,37.258,reported
+Ireland,2025,Europe,92,31.601,Solar,Renewables,1.458,4.614,reported
+Ireland,2025,Europe,92,31.601,Bioenergy,Renewables,1.032,3.266,reported
+Ireland,2025,Europe,92,31.601,Other renewables,Renewables,0,0,reported
+Ireland,2025,Europe,92,31.601,Nuclear,Nuclear,0,0,reported
+Israel,2025,Rest of the world,93,82.1,Coal,Fossil,2.8,3.41,reported
+Israel,2025,Rest of the world,93,82.1,Gas,Fossil,65.4,79.659,reported
+Israel,2025,Rest of the world,93,82.1,Other fossil,Fossil,0,0,reported
+Israel,2025,Rest of the world,93,82.1,Hydro,Renewables,0,0,reported
+Israel,2025,Rest of the world,93,82.1,Wind,Renewables,0.46,0.56,reported
+Israel,2025,Rest of the world,93,82.1,Solar,Renewables,13.28,16.175,reported
+Israel,2025,Rest of the world,93,82.1,Bioenergy,Renewables,0.16,0.195,reported
+Israel,2025,Rest of the world,93,82.1,Other renewables,Renewables,0,0,reported
+Israel,2025,Rest of the world,93,82.1,Nuclear,Nuclear,0,0,reported
+Italy,2025,Europe,94,265.199,Coal,Fossil,3.575,1.348,reported
+Italy,2025,Europe,94,265.199,Gas,Fossil,125.648,47.379,reported
+Italy,2025,Europe,94,265.199,Other fossil,Fossil,6.857,2.586,reported
+Italy,2025,Europe,94,265.199,Hydro,Renewables,41.748,15.742,reported
+Italy,2025,Europe,94,265.199,Wind,Renewables,21.469,8.095,reported
+Italy,2025,Europe,94,265.199,Solar,Renewables,44.641,16.833,reported
+Italy,2025,Europe,94,265.199,Bioenergy,Renewables,15.59,5.879,reported
+Italy,2025,Europe,94,265.199,Other renewables,Renewables,5.67,2.138,reported
+Italy,2025,Europe,94,265.199,Nuclear,Nuclear,0,0,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Coal,Fossil,327.011,31.83,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Gas,Fossil,336.347,32.739,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Other fossil,Fossil,24.467,2.382,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Hydro,Renewables,74.253,7.228,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Wind,Renewables,12.837,1.25,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Solar,Renewables,110.787,10.784,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Bioenergy,Renewables,47.585,4.632,reported
+Japan,2025,Rest of Asia Pacific,96,1027.353,Other renewables,Renewables,,,absent_in_source
+Japan,2025,Rest of Asia Pacific,96,1027.353,Nuclear,Nuclear,94.065,9.156,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Coal,Fossil,72.542,58.327,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Gas,Fossil,33.691,27.089,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Other fossil,Fossil,0.533,0.429,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Hydro,Renewables,10.439,8.393,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Wind,Renewables,5.082,4.086,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Solar,Renewables,2.082,1.674,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Bioenergy,Renewables,0.002,0.002,reported
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Other renewables,Renewables,,,absent_in_source
+Kazakhstan,2025,Rest of Asia Pacific,98,124.371,Nuclear,Nuclear,,,absent_in_source
+Kenya,2025,Rest of the world,99,14.048,Coal,Fossil,0,0,reported
+Kenya,2025,Rest of the world,99,14.048,Gas,Fossil,0,0,reported
+Kenya,2025,Rest of the world,99,14.048,Other fossil,Fossil,1.398,9.951,reported
+Kenya,2025,Rest of the world,99,14.048,Hydro,Renewables,2.932,20.871,reported
+Kenya,2025,Rest of the world,99,14.048,Wind,Renewables,2.321,16.522,reported
+Kenya,2025,Rest of the world,99,14.048,Solar,Renewables,0.673,4.791,reported
+Kenya,2025,Rest of the world,99,14.048,Bioenergy,Renewables,0.283,2.014,reported
+Kenya,2025,Rest of the world,99,14.048,Other renewables,Renewables,6.442,45.856,reported
+Kenya,2025,Rest of the world,99,14.048,Nuclear,Nuclear,0,0,reported
+Kosovo,2025,Europe,101,5.864,Coal,Fossil,5.235,89.28,reported
+Kosovo,2025,Europe,101,5.864,Gas,Fossil,0,0,reported
+Kosovo,2025,Europe,101,5.864,Other fossil,Fossil,0.01,0.171,reported
+Kosovo,2025,Europe,101,5.864,Hydro,Renewables,0.235,4.008,reported
+Kosovo,2025,Europe,101,5.864,Wind,Renewables,0.373,6.361,reported
+Kosovo,2025,Europe,101,5.864,Solar,Renewables,0.01,0.171,reported
+Kosovo,2025,Europe,101,5.864,Bioenergy,Renewables,0,0,reported
+Kosovo,2025,Europe,101,5.864,Other renewables,Renewables,0,0,reported
+Kosovo,2025,Europe,101,5.864,Nuclear,Nuclear,0,0,reported
+Kuwait,2025,Rest of the world,102,89.54,Coal,Fossil,0,0,reported
+Kuwait,2025,Rest of the world,102,89.54,Gas,Fossil,55.763,62.278,reported
+Kuwait,2025,Rest of the world,102,89.54,Other fossil,Fossil,31.682,35.383,reported
+Kuwait,2025,Rest of the world,102,89.54,Hydro,Renewables,0,0,reported
+Kuwait,2025,Rest of the world,102,89.54,Wind,Renewables,1.86,2.077,reported
+Kuwait,2025,Rest of the world,102,89.54,Solar,Renewables,0.234,0.261,reported
+Kuwait,2025,Rest of the world,102,89.54,Bioenergy,Renewables,0,0,reported
+Kuwait,2025,Rest of the world,102,89.54,Other renewables,Renewables,0,0,reported
+Kuwait,2025,Rest of the world,102,89.54,Nuclear,Nuclear,0,0,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Coal,Fossil,0.73,5.681,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Gas,Fossil,0.093,0.724,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Other fossil,Fossil,0.016,0.125,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Hydro,Renewables,12.01,93.47,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Wind,Renewables,0,0,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Solar,Renewables,0,0,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Bioenergy,Renewables,0,0,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Other renewables,Renewables,0,0,reported
+Kyrgyzstan,2025,Rest of Asia Pacific,103,12.849,Nuclear,Nuclear,0,0,reported
+Latvia,2025,Europe,105,6.227,Coal,Fossil,0,0,reported
+Latvia,2025,Europe,105,6.227,Gas,Fossil,1.65,26.496,reported
+Latvia,2025,Europe,105,6.227,Other fossil,Fossil,0,0,reported
+Latvia,2025,Europe,105,6.227,Hydro,Renewables,2.961,47.549,reported
+Latvia,2025,Europe,105,6.227,Wind,Renewables,0.219,3.517,reported
+Latvia,2025,Europe,105,6.227,Solar,Renewables,0.82,13.168,reported
+Latvia,2025,Europe,105,6.227,Bioenergy,Renewables,0.578,9.282,reported
+Latvia,2025,Europe,105,6.227,Other renewables,Renewables,0,0,reported
+Latvia,2025,Europe,105,6.227,Nuclear,Nuclear,0,0,reported
+Lithuania,2025,Europe,110,8.846,Coal,Fossil,0,0,reported
+Lithuania,2025,Europe,110,8.846,Gas,Fossil,1.453,16.425,reported
+Lithuania,2025,Europe,110,8.846,Other fossil,Fossil,0.519,5.867,reported
+Lithuania,2025,Europe,110,8.846,Hydro,Renewables,0.343,3.877,reported
+Lithuania,2025,Europe,110,8.846,Wind,Renewables,3.977,44.956,reported
+Lithuania,2025,Europe,110,8.846,Solar,Renewables,1.65,18.652,reported
+Lithuania,2025,Europe,110,8.846,Bioenergy,Renewables,0.905,10.23,reported
+Lithuania,2025,Europe,110,8.846,Other renewables,Renewables,0,0,reported
+Lithuania,2025,Europe,110,8.846,Nuclear,Nuclear,0,0,reported
+Luxembourg,2025,Europe,111,1.597,Coal,Fossil,0,0,reported
+Luxembourg,2025,Europe,111,1.597,Gas,Fossil,0.066,4.133,reported
+Luxembourg,2025,Europe,111,1.597,Other fossil,Fossil,0.071,4.446,reported
+Luxembourg,2025,Europe,111,1.597,Hydro,Renewables,0.077,4.822,reported
+Luxembourg,2025,Europe,111,1.597,Wind,Renewables,0.478,29.931,reported
+Luxembourg,2025,Europe,111,1.597,Solar,Renewables,0.493,30.871,reported
+Luxembourg,2025,Europe,111,1.597,Bioenergy,Renewables,0.413,25.861,reported
+Luxembourg,2025,Europe,111,1.597,Other renewables,Renewables,0,0,reported
+Luxembourg,2025,Europe,111,1.597,Nuclear,Nuclear,0,0,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Coal,Fossil,94.389,44.868,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Gas,Fossil,70.355,33.443,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Other fossil,Fossil,2.686,1.277,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Hydro,Renewables,34.599,16.447,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Wind,Renewables,0,0,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Solar,Renewables,6.639,3.156,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Bioenergy,Renewables,1.701,0.809,reported
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Other renewables,Renewables,,,absent_in_source
+Malaysia,2025,Rest of Asia Pacific,115,210.37,Nuclear,Nuclear,,,absent_in_source
+Malta,2025,Europe,118,2.228,Coal,Fossil,0,0,reported
+Malta,2025,Europe,118,2.228,Gas,Fossil,1.843,82.729,reported
+Malta,2025,Europe,118,2.228,Other fossil,Fossil,0.017,0.763,reported
+Malta,2025,Europe,118,2.228,Hydro,Renewables,0,0,reported
+Malta,2025,Europe,118,2.228,Wind,Renewables,0,0,reported
+Malta,2025,Europe,118,2.228,Solar,Renewables,0.355,15.935,reported
+Malta,2025,Europe,118,2.228,Bioenergy,Renewables,0.012,0.539,reported
+Malta,2025,Europe,118,2.228,Other renewables,Renewables,0,0,reported
+Malta,2025,Europe,118,2.228,Nuclear,Nuclear,0,0,reported
+Mexico,2025,Rest of the world,122,389.731,Coal,Fossil,12.923,3.316,reported
+Mexico,2025,Rest of the world,122,389.731,Gas,Fossil,272.917,70.027,reported
+Mexico,2025,Rest of the world,122,389.731,Other fossil,Fossil,9.665,2.48,reported
+Mexico,2025,Rest of the world,122,389.731,Hydro,Renewables,29.283,7.514,reported
+Mexico,2025,Rest of the world,122,389.731,Wind,Renewables,21.84,5.604,reported
+Mexico,2025,Rest of the world,122,389.731,Solar,Renewables,27.143,6.965,reported
+Mexico,2025,Rest of the world,122,389.731,Bioenergy,Renewables,5.856,1.503,reported
+Mexico,2025,Rest of the world,122,389.731,Other renewables,Renewables,,,absent_in_source
+Mexico,2025,Rest of the world,122,389.731,Nuclear,Nuclear,10.105,2.593,reported
+Moldova,2025,Europe,123,2.916,Coal,Fossil,0,0,reported
+Moldova,2025,Europe,123,2.916,Gas,Fossil,1.867,64.016,reported
+Moldova,2025,Europe,123,2.916,Other fossil,Fossil,0.22,7.543,reported
+Moldova,2025,Europe,123,2.916,Hydro,Renewables,0.344,11.795,reported
+Moldova,2025,Europe,123,2.916,Wind,Renewables,0.238,8.161,reported
+Moldova,2025,Europe,123,2.916,Solar,Renewables,0.228,7.818,reported
+Moldova,2025,Europe,123,2.916,Bioenergy,Renewables,0.019,0.651,reported
+Moldova,2025,Europe,123,2.916,Other renewables,Renewables,0,0,reported
+Moldova,2025,Europe,123,2.916,Nuclear,Nuclear,0,0,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Coal,Fossil,8.318,85.312,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Gas,Fossil,0,0,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Other fossil,Fossil,0.593,6.082,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Hydro,Renewables,0.06,0.615,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Wind,Renewables,0.551,5.651,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Solar,Renewables,0.229,2.349,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Bioenergy,Renewables,0,0,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Other renewables,Renewables,0,0,reported
+Mongolia,2025,Rest of Asia Pacific,124,9.75,Nuclear,Nuclear,0,0,reported
+Montenegro,2025,Europe,125,2.43,Coal,Fossil,0.618,25.433,reported
+Montenegro,2025,Europe,125,2.43,Gas,Fossil,0,0,reported
+Montenegro,2025,Europe,125,2.43,Other fossil,Fossil,0,0,reported
+Montenegro,2025,Europe,125,2.43,Hydro,Renewables,1.438,59.179,reported
+Montenegro,2025,Europe,125,2.43,Wind,Renewables,0.298,12.264,reported
+Montenegro,2025,Europe,125,2.43,Solar,Renewables,0.076,3.128,reported
+Montenegro,2025,Europe,125,2.43,Bioenergy,Renewables,0,0,reported
+Montenegro,2025,Europe,125,2.43,Other renewables,Renewables,0,0,reported
+Montenegro,2025,Europe,125,2.43,Nuclear,Nuclear,0,0,reported
+Morocco,2025,Rest of the world,127,44.15,Coal,Fossil,27.54,62.378,reported
+Morocco,2025,Rest of the world,127,44.15,Gas,Fossil,4.788,10.845,reported
+Morocco,2025,Rest of the world,127,44.15,Other fossil,Fossil,1.573,3.563,reported
+Morocco,2025,Rest of the world,127,44.15,Hydro,Renewables,0.922,2.088,reported
+Morocco,2025,Rest of the world,127,44.15,Wind,Renewables,6.717,15.214,reported
+Morocco,2025,Rest of the world,127,44.15,Solar,Renewables,2.568,5.817,reported
+Morocco,2025,Rest of the world,127,44.15,Bioenergy,Renewables,0.042,0.095,reported
+Morocco,2025,Rest of the world,127,44.15,Other renewables,Renewables,0,0,reported
+Morocco,2025,Rest of the world,127,44.15,Nuclear,Nuclear,0,0,reported
+Netherlands,2025,Europe,133,135.037,Coal,Fossil,9.56,7.08,reported
+Netherlands,2025,Europe,133,135.037,Gas,Fossil,47.093,34.874,reported
+Netherlands,2025,Europe,133,135.037,Other fossil,Fossil,5.255,3.892,reported
+Netherlands,2025,Europe,133,135.037,Hydro,Renewables,0.079,0.059,reported
+Netherlands,2025,Europe,133,135.037,Wind,Renewables,33.705,24.96,reported
+Netherlands,2025,Europe,133,135.037,Solar,Renewables,28.507,21.111,reported
+Netherlands,2025,Europe,133,135.037,Bioenergy,Renewables,6.851,5.073,reported
+Netherlands,2025,Europe,133,135.037,Other renewables,Renewables,0,0,reported
+Netherlands,2025,Europe,133,135.037,Nuclear,Nuclear,3.985,2.951,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Coal,Fossil,0.748,1.7,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Gas,Fossil,3.816,8.675,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Other fossil,Fossil,0.641,1.457,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Hydro,Renewables,23.768,54.032,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Wind,Renewables,4.205,9.559,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Solar,Renewables,0.491,1.116,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Bioenergy,Renewables,0.559,1.271,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Other renewables,Renewables,9.761,22.19,reported
+New Zealand,2025,Rest of Asia Pacific,135,43.988,Nuclear,Nuclear,0,0,reported
+Nigeria,2025,Rest of the world,138,42.522,Coal,Fossil,0,0,reported
+Nigeria,2025,Rest of the world,138,42.522,Gas,Fossil,28.922,68.017,reported
+Nigeria,2025,Rest of the world,138,42.522,Other fossil,Fossil,0,0,reported
+Nigeria,2025,Rest of the world,138,42.522,Hydro,Renewables,13.395,31.502,reported
+Nigeria,2025,Rest of the world,138,42.522,Wind,Renewables,0,0,reported
+Nigeria,2025,Rest of the world,138,42.522,Solar,Renewables,0.143,0.336,reported
+Nigeria,2025,Rest of the world,138,42.522,Bioenergy,Renewables,0.062,0.146,reported
+Nigeria,2025,Rest of the world,138,42.522,Other renewables,Renewables,0,0,reported
+Nigeria,2025,Rest of the world,138,42.522,Nuclear,Nuclear,0,0,reported
+North Macedonia,2025,Europe,140,7.114,Coal,Fossil,2.182,30.672,reported
+North Macedonia,2025,Europe,140,7.114,Gas,Fossil,1.15,16.165,reported
+North Macedonia,2025,Europe,140,7.114,Other fossil,Fossil,0.17,2.39,reported
+North Macedonia,2025,Europe,140,7.114,Hydro,Renewables,1.273,17.894,reported
+North Macedonia,2025,Europe,140,7.114,Wind,Renewables,0.278,3.908,reported
+North Macedonia,2025,Europe,140,7.114,Solar,Renewables,2.007,28.212,reported
+North Macedonia,2025,Europe,140,7.114,Bioenergy,Renewables,0.054,0.759,reported
+North Macedonia,2025,Europe,140,7.114,Other renewables,Renewables,0,0,reported
+North Macedonia,2025,Europe,140,7.114,Nuclear,Nuclear,0,0,reported
+Norway,2025,Europe,141,160.855,Coal,Fossil,0,0,reported
+Norway,2025,Europe,141,160.855,Gas,Fossil,0.929,0.578,reported
+Norway,2025,Europe,141,160.855,Other fossil,Fossil,0.686,0.426,reported
+Norway,2025,Europe,141,160.855,Hydro,Renewables,144.777,90.005,reported
+Norway,2025,Europe,141,160.855,Wind,Renewables,13.557,8.428,reported
+Norway,2025,Europe,141,160.855,Solar,Renewables,0.537,0.334,reported
+Norway,2025,Europe,141,160.855,Bioenergy,Renewables,0.24,0.149,reported
+Norway,2025,Europe,141,160.855,Other renewables,Renewables,0.128,0.08,reported
+Norway,2025,Europe,141,160.855,Nuclear,Nuclear,0,0,reported
+Oman,2025,Rest of the world,142,53.05,Coal,Fossil,0,0,reported
+Oman,2025,Rest of the world,142,53.05,Gas,Fossil,48.549,91.515,reported
+Oman,2025,Rest of the world,142,53.05,Other fossil,Fossil,1.742,3.284,reported
+Oman,2025,Rest of the world,142,53.05,Hydro,Renewables,0,0,reported
+Oman,2025,Rest of the world,142,53.05,Wind,Renewables,0.1,0.189,reported
+Oman,2025,Rest of the world,142,53.05,Solar,Renewables,2.659,5.012,reported
+Oman,2025,Rest of the world,142,53.05,Bioenergy,Renewables,0,0,reported
+Oman,2025,Rest of the world,142,53.05,Other renewables,Renewables,0,0,reported
+Oman,2025,Rest of the world,142,53.05,Nuclear,Nuclear,0,0,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Coal,Fossil,24.75,14.469,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Gas,Fossil,39.34,22.998,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Other fossil,Fossil,2.59,1.514,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Hydro,Renewables,39.44,23.056,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Wind,Renewables,3.74,2.186,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Solar,Renewables,36.6,21.396,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Bioenergy,Renewables,0.6,0.351,reported
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Other renewables,Renewables,,,absent_in_source
+Pakistan,2025,Rest of Asia Pacific,143,171.06,Nuclear,Nuclear,24,14.03,reported
+Paraguay,2025,Rest of the world,147,45.35,Coal,Fossil,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Gas,Fossil,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Other fossil,Fossil,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Hydro,Renewables,45.11,99.471,reported
+Paraguay,2025,Rest of the world,147,45.35,Wind,Renewables,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Solar,Renewables,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Bioenergy,Renewables,0.24,0.529,reported
+Paraguay,2025,Rest of the world,147,45.35,Other renewables,Renewables,0,0,reported
+Paraguay,2025,Rest of the world,147,45.35,Nuclear,Nuclear,0,0,reported
+Peru,2025,Rest of the world,148,60.505,Coal,Fossil,0,0,reported
+Peru,2025,Rest of the world,148,60.505,Gas,Fossil,21.83,36.079,reported
+Peru,2025,Rest of the world,148,60.505,Other fossil,Fossil,0.154,0.255,reported
+Peru,2025,Rest of the world,148,60.505,Hydro,Renewables,33.87,55.978,reported
+Peru,2025,Rest of the world,148,60.505,Wind,Renewables,2.133,3.525,reported
+Peru,2025,Rest of the world,148,60.505,Solar,Renewables,1.864,3.081,reported
+Peru,2025,Rest of the world,148,60.505,Bioenergy,Renewables,0.653,1.079,reported
+Peru,2025,Rest of the world,148,60.505,Other renewables,Renewables,0,0,reported
+Peru,2025,Rest of the world,148,60.505,Nuclear,Nuclear,0,0,reported
+Poland,2025,Europe,149,172.748,Coal,Fossil,87.334,50.556,reported
+Poland,2025,Europe,149,172.748,Gas,Fossil,24.795,14.353,reported
+Poland,2025,Europe,149,172.748,Other fossil,Fossil,6.684,3.869,reported
+Poland,2025,Europe,149,172.748,Hydro,Renewables,1.703,0.986,reported
+Poland,2025,Europe,149,172.748,Wind,Renewables,23.958,13.869,reported
+Poland,2025,Europe,149,172.748,Solar,Renewables,19.543,11.313,reported
+Poland,2025,Europe,149,172.748,Bioenergy,Renewables,8.455,4.894,reported
+Poland,2025,Europe,149,172.748,Other renewables,Renewables,0.277,0.16,reported
+Poland,2025,Europe,149,172.748,Nuclear,Nuclear,0,0,reported
+Portugal,2025,Europe,150,51.119,Coal,Fossil,0,0,reported
+Portugal,2025,Europe,150,51.119,Gas,Fossil,8.428,16.487,reported
+Portugal,2025,Europe,150,51.119,Other fossil,Fossil,1.345,2.631,reported
+Portugal,2025,Europe,150,51.119,Hydro,Renewables,15.205,29.744,reported
+Portugal,2025,Europe,150,51.119,Wind,Renewables,13.704,26.808,reported
+Portugal,2025,Europe,150,51.119,Solar,Renewables,8.854,17.32,reported
+Portugal,2025,Europe,150,51.119,Bioenergy,Renewables,3.383,6.618,reported
+Portugal,2025,Europe,150,51.119,Other renewables,Renewables,0.2,0.391,reported
+Portugal,2025,Europe,150,51.119,Nuclear,Nuclear,0,0,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Coal,Fossil,3.066,15.688,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Gas,Fossil,5.764,29.494,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Other fossil,Fossil,9.568,48.958,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Hydro,Renewables,0.003,0.015,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Wind,Renewables,0.223,1.141,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Solar,Renewables,0.909,4.651,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Bioenergy,Renewables,0.01,0.051,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Other renewables,Renewables,0,0,reported
+Puerto Rico,2025,Rest of the world,151,19.543,Nuclear,Nuclear,0,0,reported
+Romania,2025,Europe,154,49.793,Coal,Fossil,7.555,15.173,reported
+Romania,2025,Europe,154,49.793,Gas,Fossil,8.45,16.97,reported
+Romania,2025,Europe,154,49.793,Other fossil,Fossil,0.085,0.171,reported
+Romania,2025,Europe,154,49.793,Hydro,Renewables,12.088,24.276,reported
+Romania,2025,Europe,154,49.793,Wind,Renewables,5.974,11.998,reported
+Romania,2025,Europe,154,49.793,Solar,Renewables,4.96,9.961,reported
+Romania,2025,Europe,154,49.793,Bioenergy,Renewables,0.476,0.956,reported
+Romania,2025,Europe,154,49.793,Other renewables,Renewables,0,0,reported
+Romania,2025,Europe,154,49.793,Nuclear,Nuclear,10.205,20.495,reported
+Russia,2025,Europe,155,1194.437,Coal,Fossil,211.171,17.68,reported
+Russia,2025,Europe,155,1194.437,Gas,Fossil,544.957,45.625,reported
+Russia,2025,Europe,155,1194.437,Other fossil,Fossil,12.104,1.013,reported
+Russia,2025,Europe,155,1194.437,Hydro,Renewables,199.952,16.74,reported
+Russia,2025,Europe,155,1194.437,Wind,Renewables,3.888,0.326,reported
+Russia,2025,Europe,155,1194.437,Solar,Renewables,2.858,0.239,reported
+Russia,2025,Europe,155,1194.437,Bioenergy,Renewables,0.883,0.074,reported
+Russia,2025,Europe,155,1194.437,Other renewables,Renewables,,,absent_in_source
+Russia,2025,Europe,155,1194.437,Nuclear,Nuclear,218.624,18.304,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Coal,Fossil,0,0,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Gas,Fossil,300.428,63.728,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Other fossil,Fossil,151.23,32.079,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Hydro,Renewables,,,absent_in_source
+Saudi Arabia,2025,Rest of the world,163,471.425,Wind,Renewables,1.588,0.337,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Solar,Renewables,18.179,3.856,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Bioenergy,Renewables,0,0,reported
+Saudi Arabia,2025,Rest of the world,163,471.425,Other renewables,Renewables,,,absent_in_source
+Saudi Arabia,2025,Rest of the world,163,471.425,Nuclear,Nuclear,,,absent_in_source
+Serbia,2025,Europe,165,36.229,Coal,Fossil,23.666,65.324,reported
+Serbia,2025,Europe,165,36.229,Gas,Fossil,2.212,6.106,reported
+Serbia,2025,Europe,165,36.229,Other fossil,Fossil,0.106,0.293,reported
+Serbia,2025,Europe,165,36.229,Hydro,Renewables,8.028,22.159,reported
+Serbia,2025,Europe,165,36.229,Wind,Renewables,1.483,4.093,reported
+Serbia,2025,Europe,165,36.229,Solar,Renewables,0.348,0.961,reported
+Serbia,2025,Europe,165,36.229,Bioenergy,Renewables,0.386,1.065,reported
+Serbia,2025,Europe,165,36.229,Other renewables,Renewables,0,0,reported
+Serbia,2025,Europe,165,36.229,Nuclear,Nuclear,0,0,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Coal,Fossil,0.57,0.948,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Gas,Fossil,54.772,91.115,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Other fossil,Fossil,1.474,2.452,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Hydro,Renewables,,,absent_in_source
+Singapore,2025,Rest of Asia Pacific,168,60.113,Wind,Renewables,,,absent_in_source
+Singapore,2025,Rest of Asia Pacific,168,60.113,Solar,Renewables,1.637,2.723,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Bioenergy,Renewables,1.66,2.761,reported
+Singapore,2025,Rest of Asia Pacific,168,60.113,Other renewables,Renewables,,,absent_in_source
+Singapore,2025,Rest of Asia Pacific,168,60.113,Nuclear,Nuclear,,,absent_in_source
+Slovakia,2025,Europe,169,29.084,Coal,Fossil,0.32,1.1,reported
+Slovakia,2025,Europe,169,29.084,Gas,Fossil,3.286,11.298,reported
+Slovakia,2025,Europe,169,29.084,Other fossil,Fossil,0.726,2.496,reported
+Slovakia,2025,Europe,169,29.084,Hydro,Renewables,3.148,10.824,reported
+Slovakia,2025,Europe,169,29.084,Wind,Renewables,0,0,reported
+Slovakia,2025,Europe,169,29.084,Solar,Renewables,0.716,2.462,reported
+Slovakia,2025,Europe,169,29.084,Bioenergy,Renewables,1.564,5.378,reported
+Slovakia,2025,Europe,169,29.084,Other renewables,Renewables,0,0,reported
+Slovakia,2025,Europe,169,29.084,Nuclear,Nuclear,19.322,66.436,reported
+Slovenia,2025,Europe,170,14.852,Coal,Fossil,2.181,14.684,reported
+Slovenia,2025,Europe,170,14.852,Gas,Fossil,0.953,6.416,reported
+Slovenia,2025,Europe,170,14.852,Other fossil,Fossil,0.003,0.02,reported
+Slovenia,2025,Europe,170,14.852,Hydro,Renewables,4.077,27.45,reported
+Slovenia,2025,Europe,170,14.852,Wind,Renewables,0.012,0.081,reported
+Slovenia,2025,Europe,170,14.852,Solar,Renewables,1.505,10.133,reported
+Slovenia,2025,Europe,170,14.852,Bioenergy,Renewables,0.284,1.912,reported
+Slovenia,2025,Europe,170,14.852,Other renewables,Renewables,0,0,reported
+Slovenia,2025,Europe,170,14.852,Nuclear,Nuclear,5.836,39.293,reported
+South Africa,2025,Rest of the world,173,242.788,Coal,Fossil,197.538,81.362,reported
+South Africa,2025,Rest of the world,173,242.788,Gas,Fossil,0,0,reported
+South Africa,2025,Rest of the world,173,242.788,Other fossil,Fossil,1.945,0.801,reported
+South Africa,2025,Rest of the world,173,242.788,Hydro,Renewables,1.82,0.75,reported
+South Africa,2025,Rest of the world,173,242.788,Wind,Renewables,11.31,4.658,reported
+South Africa,2025,Rest of the world,173,242.788,Solar,Renewables,19.537,8.047,reported
+South Africa,2025,Rest of the world,173,242.788,Bioenergy,Renewables,0.427,0.176,reported
+South Africa,2025,Rest of the world,173,242.788,Other renewables,Renewables,,,absent_in_source
+South Africa,2025,Rest of the world,173,242.788,Nuclear,Nuclear,10.21,4.205,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Coal,Fossil,195.216,31.094,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Gas,Fossil,175.976,28.029,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Other fossil,Fossil,6.316,1.006,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Hydro,Renewables,3.805,0.606,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Wind,Renewables,3.666,0.584,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Solar,Renewables,37.861,6.03,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Bioenergy,Renewables,20.302,3.234,reported
+South Korea,2025,Rest of Asia Pacific,174,627.835,Other renewables,Renewables,,,absent_in_source
+South Korea,2025,Rest of Asia Pacific,174,627.835,Nuclear,Nuclear,184.693,29.417,reported
+Spain,2025,Europe,176,288.315,Coal,Fossil,1.136,0.394,reported
+Spain,2025,Europe,176,288.315,Gas,Fossil,62.051,21.522,reported
+Spain,2025,Europe,176,288.315,Other fossil,Fossil,10.012,3.473,reported
+Spain,2025,Europe,176,288.315,Hydro,Renewables,32.767,11.365,reported
+Spain,2025,Europe,176,288.315,Wind,Renewables,58.779,20.387,reported
+Spain,2025,Europe,176,288.315,Solar,Renewables,63.032,21.862,reported
+Spain,2025,Europe,176,288.315,Bioenergy,Renewables,6.414,2.225,reported
+Spain,2025,Europe,176,288.315,Other renewables,Renewables,0.009,0.003,reported
+Spain,2025,Europe,176,288.315,Nuclear,Nuclear,54.113,18.769,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Coal,Fossil,5.374,28.943,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Gas,Fossil,,,absent_in_source
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Other fossil,Fossil,2.36,12.71,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Hydro,Renewables,7.713,41.54,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Wind,Renewables,0.448,2.413,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Solar,Renewables,2.459,13.243,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Bioenergy,Renewables,0.176,0.948,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Other renewables,Renewables,0.037,0.199,reported
+Sri Lanka,2025,Rest of Asia Pacific,177,18.568,Nuclear,Nuclear,,,absent_in_source
+Sweden,2025,Europe,180,170.246,Coal,Fossil,0,0,reported
+Sweden,2025,Europe,180,170.246,Gas,Fossil,0.121,0.071,reported
+Sweden,2025,Europe,180,170.246,Other fossil,Fossil,1.97,1.157,reported
+Sweden,2025,Europe,180,170.246,Hydro,Renewables,68.197,40.058,reported
+Sweden,2025,Europe,180,170.246,Wind,Renewables,38.89,22.843,reported
+Sweden,2025,Europe,180,170.246,Solar,Renewables,4.444,2.61,reported
+Sweden,2025,Europe,180,170.246,Bioenergy,Renewables,9.971,5.857,reported
+Sweden,2025,Europe,180,170.246,Other renewables,Renewables,0,0,reported
+Sweden,2025,Europe,180,170.246,Nuclear,Nuclear,46.654,27.404,reported
+Switzerland,2025,Europe,181,65.023,Coal,Fossil,,,absent_in_source
+Switzerland,2025,Europe,181,65.023,Gas,Fossil,0.27,0.415,reported
+Switzerland,2025,Europe,181,65.023,Other fossil,Fossil,1.233,1.896,reported
+Switzerland,2025,Europe,181,65.023,Hydro,Renewables,33.981,52.26,reported
+Switzerland,2025,Europe,181,65.023,Wind,Renewables,0.152,0.234,reported
+Switzerland,2025,Europe,181,65.023,Solar,Renewables,7.883,12.123,reported
+Switzerland,2025,Europe,181,65.023,Bioenergy,Renewables,1.112,1.71,reported
+Switzerland,2025,Europe,181,65.023,Other renewables,Renewables,0.966,1.486,reported
+Switzerland,2025,Europe,181,65.023,Nuclear,Nuclear,19.426,29.876,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Coal,Fossil,104.347,36.115,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Gas,Fossil,140.994,48.798,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Other fossil,Fossil,4.46,1.544,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Hydro,Renewables,5.499,1.903,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Wind,Renewables,12.202,4.223,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Solar,Renewables,15.975,5.529,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Bioenergy,Renewables,2.216,0.767,reported
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Other renewables,Renewables,,,absent_in_source
+Taiwan (China),2025,Rest of Asia Pacific,183,288.931,Nuclear,Nuclear,3.237,1.12,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Coal,Fossil,1.124,4.679,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Gas,Fossil,0.225,0.937,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Other fossil,Fossil,0,0,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Hydro,Renewables,22.674,94.388,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Wind,Renewables,0,0,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Solar,Renewables,0,0,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Bioenergy,Renewables,0,0,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Other renewables,Renewables,0,0,reported
+Tajikistan,2025,Rest of Asia Pacific,184,24.022,Nuclear,Nuclear,0,0,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Coal,Fossil,33.579,16.748,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Gas,Fossil,123.334,61.514,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Other fossil,Fossil,0.133,0.066,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Hydro,Renewables,7.833,3.907,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Wind,Renewables,3.562,1.777,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Solar,Renewables,9.99,4.983,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Bioenergy,Renewables,22.066,11.006,reported
+Thailand,2025,Rest of Asia Pacific,186,200.497,Other renewables,Renewables,,,absent_in_source
+Thailand,2025,Rest of Asia Pacific,186,200.497,Nuclear,Nuclear,,,absent_in_source
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Coal,Fossil,72.231,58.648,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Gas,Fossil,21.261,17.263,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Other fossil,Fossil,0.956,0.776,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Hydro,Renewables,12.694,10.307,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Wind,Renewables,1.464,1.189,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Solar,Renewables,2.995,2.432,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Bioenergy,Renewables,1.461,1.186,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Other renewables,Renewables,10.099,8.2,reported
+The Philippines,2025,Rest of Asia Pacific,187,123.16,Nuclear,Nuclear,0,0,reported
+Tunisia,2025,Rest of the world,191,22.381,Coal,Fossil,0,0,reported
+Tunisia,2025,Rest of the world,191,22.381,Gas,Fossil,21.193,94.692,reported
+Tunisia,2025,Rest of the world,191,22.381,Other fossil,Fossil,0.328,1.466,reported
+Tunisia,2025,Rest of the world,191,22.381,Hydro,Renewables,0.008,0.036,reported
+Tunisia,2025,Rest of the world,191,22.381,Wind,Renewables,0.292,1.305,reported
+Tunisia,2025,Rest of the world,191,22.381,Solar,Renewables,0.56,2.502,reported
+Tunisia,2025,Rest of the world,191,22.381,Bioenergy,Renewables,0,0,reported
+Tunisia,2025,Rest of the world,191,22.381,Other renewables,Renewables,0,0,reported
+Tunisia,2025,Rest of the world,191,22.381,Nuclear,Nuclear,0,0,reported
+Türkiye,2025,Europe,194,353.86,Coal,Fossil,121.4,34.307,reported
+Türkiye,2025,Europe,194,353.86,Gas,Fossil,78.36,22.144,reported
+Türkiye,2025,Europe,194,353.86,Other fossil,Fossil,1.03,0.291,reported
+Türkiye,2025,Europe,194,353.86,Hydro,Renewables,57.27,16.184,reported
+Türkiye,2025,Europe,194,353.86,Wind,Renewables,39.42,11.14,reported
+Türkiye,2025,Europe,194,353.86,Solar,Renewables,37.25,10.527,reported
+Türkiye,2025,Europe,194,353.86,Bioenergy,Renewables,8.48,2.396,reported
+Türkiye,2025,Europe,194,353.86,Other renewables,Renewables,10.65,3.01,reported
+Türkiye,2025,Europe,194,353.86,Nuclear,Nuclear,0,0,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Coal,Fossil,0,0,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Gas,Fossil,125.472,68.039,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Other fossil,Fossil,0.707,0.383,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Hydro,Renewables,0,0,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Wind,Renewables,0.221,0.12,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Solar,Renewables,18.204,9.871,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Bioenergy,Renewables,0.753,0.408,reported
+United Arab Emirates,2025,Rest of the world,197,184.411,Other renewables,Renewables,,,absent_in_source
+United Arab Emirates,2025,Rest of the world,197,184.411,Nuclear,Nuclear,39.053,21.177,reported
+United Kingdom,2025,Europe,198,293.659,Coal,Fossil,0.328,0.112,reported
+United Kingdom,2025,Europe,198,293.659,Gas,Fossil,91.985,31.324,reported
+United Kingdom,2025,Europe,198,293.659,Other fossil,Fossil,12.782,4.353,reported
+United Kingdom,2025,Europe,198,293.659,Hydro,Renewables,5.416,1.844,reported
+United Kingdom,2025,Europe,198,293.659,Wind,Renewables,86.44,29.436,reported
+United Kingdom,2025,Europe,198,293.659,Solar,Renewables,19.399,6.606,reported
+United Kingdom,2025,Europe,198,293.659,Bioenergy,Renewables,40.932,13.939,reported
+United Kingdom,2025,Europe,198,293.659,Other renewables,Renewables,0,0,reported
+United Kingdom,2025,Europe,198,293.659,Nuclear,Nuclear,36.378,12.388,reported
+United States,2025,United States,199,4519.79,Coal,Fossil,737.15,16.309,reported
+United States,2025,United States,199,4519.79,Gas,Fossil,1807.34,39.987,reported
+United States,2025,United States,199,4519.79,Other fossil,Fossil,31.72,0.702,reported
+United States,2025,United States,199,4519.79,Hydro,Renewables,241.7,5.348,reported
+United States,2025,United States,199,4519.79,Wind,Renewables,464.39,10.275,reported
+United States,2025,United States,199,4519.79,Solar,Renewables,388.82,8.603,reported
+United States,2025,United States,199,4519.79,Bioenergy,Renewables,46.19,1.022,reported
+United States,2025,United States,199,4519.79,Other renewables,Renewables,17.7,0.392,reported
+United States,2025,United States,199,4519.79,Nuclear,Nuclear,784.78,17.363,reported
+Uruguay,2025,Rest of the world,200,12.018,Coal,Fossil,0,0,reported
+Uruguay,2025,Rest of the world,200,12.018,Gas,Fossil,0.015,0.125,reported
+Uruguay,2025,Rest of the world,200,12.018,Other fossil,Fossil,0.259,2.155,reported
+Uruguay,2025,Rest of the world,200,12.018,Hydro,Renewables,3.282,27.308,reported
+Uruguay,2025,Rest of the world,200,12.018,Wind,Renewables,4.868,40.505,reported
+Uruguay,2025,Rest of the world,200,12.018,Solar,Renewables,0.624,5.192,reported
+Uruguay,2025,Rest of the world,200,12.018,Bioenergy,Renewables,2.971,24.721,reported
+Uruguay,2025,Rest of the world,200,12.018,Other renewables,Renewables,0,0,reported
+Uruguay,2025,Rest of the world,200,12.018,Nuclear,Nuclear,0,0,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Coal,Fossil,5.7,6.574,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Gas,Fossil,62.7,72.318,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Other fossil,Fossil,1.5,1.73,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Hydro,Renewables,6.3,7.266,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Wind,Renewables,4,4.614,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Solar,Renewables,6.5,7.497,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Bioenergy,Renewables,0,0,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Other renewables,Renewables,0,0,reported
+Uzbekistan,2025,Rest of Asia Pacific,201,86.7,Nuclear,Nuclear,0,0,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Coal,Fossil,157.237,47.786,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Gas,Fossil,19.675,5.979,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Other fossil,Fossil,0.619,0.188,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Hydro,Renewables,101.826,30.946,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Wind,Renewables,14.654,4.454,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Solar,Renewables,33.848,10.287,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Bioenergy,Renewables,1.184,0.36,reported
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Other renewables,Renewables,,,absent_in_source
+Viet Nam,2025,Rest of Asia Pacific,204,329.044,Nuclear,Nuclear,0,0,reported

@@ -1,0 +1,158 @@
+site,role,source_company,company,confidence,allocated_mw,display_company
+Colossus 2,Owner,SpaceXAI,SpaceXAI,confident,946.0,Other companies
+Colossus 2,User,Anthropic,Anthropic,confident,315.333333,Anthropic
+Colossus 2,User,Cursor,Cursor,confident,315.333333,Other companies
+Colossus 2,User,SpaceXAI,SpaceXAI,confident,315.333333,Other companies
+OpenAI Stargate Abilene,Owner,Oracle,Oracle,confident,824.0,Other companies
+OpenAI Stargate Abilene,User,OpenAI,OpenAI,confident,824.0,OpenAI
+Anthropic-Amazon New Carlisle,Owner,Amazon,Amazon,confident,1037.0,Amazon
+Anthropic-Amazon New Carlisle,User,Anthropic,Anthropic,confident,1037.0,Anthropic
+Microsoft Fairwater Atlanta,Owner,Microsoft,Microsoft,confident,636.0,Other companies
+Microsoft Fairwater Atlanta,User,OpenAI,OpenAI,likely,318.0,OpenAI
+Microsoft Fairwater Atlanta,User,Microsoft,Microsoft,likely,318.0,Other companies
+Google Pryor (North),Owner,Google,Google,confident,368.0,Google
+Google Pryor (North),User,Google DeepMind,Google,speculative,368.0,Google
+DayOne Nusajaya,Owner,Unknown,Unknown,unspecified,473.0,Unknown
+DayOne Nusajaya,User,Unknown,Unknown,unspecified,473.0,Unknown
+Meta Prometheus,Owner,Meta,Meta,confident,471.0,Meta
+Meta Prometheus,User,Meta,Meta,confident,471.0,Meta
+DayOne Kempas,Owner,Unknown,Unknown,unspecified,421.691664,Unknown
+DayOne Kempas,User,Unknown,Unknown,unspecified,421.691664,Unknown
+Microsoft Fairwater Wisconsin,Owner,Microsoft,Microsoft,confident,369.0,Other companies
+Microsoft Fairwater Wisconsin,User,OpenAI,OpenAI,likely,184.5,OpenAI
+Microsoft Fairwater Wisconsin,User,Microsoft,Microsoft,likely,184.5,Other companies
+Google Columbus,Owner,Google,Google,confident,303.0,Google
+Google Columbus,User,Google DeepMind,Google,speculative,303.0,Google
+Google New Albany,Owner,Google,Google,confident,333.0,Google
+Google New Albany,User,Google DeepMind,Google,speculative,333.0,Google
+Anthropic Lake Mariner,Owner,AI XPV Platform,AI XPV Platform,confident,210.0,Other companies
+Anthropic Lake Mariner,User,Anthropic,Anthropic,likely,210.0,Anthropic
+Google Mesa,Owner,Google,Google,confident,183.0,Google
+Google Mesa,User,Unknown,Unknown,unspecified,183.0,Unknown
+Colossus 1,Owner,SpaceXAI,SpaceXAI,confident,340.0,Other companies
+Colossus 1,User,Anthropic,Anthropic,confident,340.0,Anthropic
+Google Council Bluffs (East),Owner,Google,Google,confident,237.0,Google
+Google Council Bluffs (East),User,Google DeepMind,Google,speculative,237.0,Google
+CoreWeave Denton TX,Owner,CoreWeave,CoreWeave,confident,262.0,Other companies
+CoreWeave Denton TX,User,OpenAI,OpenAI,likely,262.0,OpenAI
+QTS Richmond 1,Owner,Unknown,Unknown,unspecified,238.0,Unknown
+QTS Richmond 1,User,Unknown,Unknown,unspecified,238.0,Unknown
+Bridge Data Centres MY06,Owner,ByteDance,ByteDance,likely,243.0,Other companies
+Bridge Data Centres MY06,User,ByteDance,ByteDance,likely,243.0,Other companies
+Meta Rosemount,Owner,Meta,Meta,confident,178.0,Meta
+Meta Rosemount,User,Meta,Meta,confident,178.0,Meta
+Amazon Madison Mega Site,Owner,Amazon,Amazon,confident,284.0,Amazon
+Amazon Madison Mega Site,User,Anthropic,Anthropic,speculative,284.0,Anthropic
+Google Bristow,Owner,Google,Google,unspecified,238.0,Google
+Google Bristow,User,Google DeepMind,Google,unspecified,238.0,Google
+Microsoft Goodyear,Owner,Microsoft,Microsoft,confident,202.0,Other companies
+Microsoft Goodyear,User,OpenAI,OpenAI,likely,101.0,OpenAI
+Microsoft Goodyear,User,Microsoft,Microsoft,confident,101.0,Other companies
+Meta Jeffersonville,Owner,Meta,Meta,confident,178.0,Meta
+Meta Jeffersonville,User,Meta,Meta,confident,178.0,Meta
+Google Kansas City East,Owner,Google,Google,confident,105.0,Google
+Google Kansas City East,User,Unknown,Unknown,unspecified,105.0,Unknown
+Meta Temple,Owner,Meta,Meta,confident,178.0,Meta
+Meta Temple,User,Meta,Meta,confident,178.0,Meta
+AWS New Albany,Owner,Amazon,Amazon,confident,213.0,Amazon
+AWS New Albany,User,Unknown,Unknown,unspecified,213.0,Unknown
+Google Omaha,Owner,Google,Google,confident,237.0,Google
+Google Omaha,User,Google DeepMind,Google,speculative,237.0,Google
+Google Lincoln,Owner,Google,Google,confident,141.0,Google
+Google Lincoln,User,Unknown,Unknown,unspecified,141.0,Unknown
+QTS Richmond 2,Owner,Unknown,Unknown,unspecified,180.0,Unknown
+QTS Richmond 2,User,Unknown,Unknown,unspecified,180.0,Unknown
+Google The Dalles,Owner,Google,Google,confident,154.0,Google
+Google The Dalles,User,Unknown,Unknown,unspecified,154.0,Unknown
+QTS Richmond 3,Owner,Unknown,Unknown,unspecified,144.0,Unknown
+QTS Richmond 3,User,Unknown,Unknown,unspecified,144.0,Unknown
+Meta Montgomery,Owner,Meta,Meta,confident,153.0,Meta
+Meta Montgomery,User,Meta,Meta,confident,153.0,Meta
+Meta Kuna,Owner,Meta,Meta,confident,152.0,Meta
+Meta Kuna,User,Meta,Meta,confident,152.0,Meta
+Meta Cheyenne,Owner,Meta,Meta,confident,152.0,Meta
+Meta Cheyenne,User,Meta,Meta,confident,152.0,Meta
+Amazon Ridgeland,Owner,Amazon,Amazon,confident,228.0,Amazon
+Amazon Ridgeland,User,Anthropic,Anthropic,speculative,228.0,Anthropic
+Meta Huntsville,Owner,Meta,Meta,confident,146.0,Meta
+Meta Huntsville,User,Meta,Meta,confident,146.0,Meta
+Coreweave Helios,Owner,CoreWeave,CoreWeave,confident,132.0,Other companies
+Coreweave Helios,User,OpenAI,OpenAI,speculative,132.0,OpenAI
+Microsoft Project Osmium,Owner,Microsoft,Microsoft,confident,190.0,Other companies
+Microsoft Project Osmium,User,OpenAI,OpenAI,speculative,190.0,OpenAI
+YTL Johor,Owner,Unknown,Unknown,unspecified,113.0,Unknown
+YTL Johor,User,Unknown,Unknown,unspecified,113.0,Unknown
+Meta Eagle Mountain,Owner,Meta,Meta,confident,133.0,Meta
+Meta Eagle Mountain,User,Meta,Meta,confident,133.0,Meta
+Meta Aiken,Owner,Meta,Meta,confident,129.0,Meta
+Meta Aiken,User,Meta,Meta,confident,129.0,Meta
+Google Midlothian,Owner,Google,Google,confident,103.0,Google
+Google Midlothian,User,Unknown,Unknown,unspecified,103.0,Unknown
+Google Storey County,Owner,Google,Google,confident,161.0,Google
+Google Storey County,User,Google DeepMind,Google,speculative,161.0,Google
+Meta Los Lunas,Owner,Meta,Meta,confident,118.0,Meta
+Meta Los Lunas,User,Meta,Meta,confident,118.0,Meta
+Google Lancaster,Owner,Google,Google,confident,137.0,Google
+Google Lancaster,User,Unknown,Unknown,unspecified,137.0,Unknown
+Meta-QTS Hillsboro 2,Owner,Meta,Meta,likely,180.0,Meta
+Meta-QTS Hillsboro 2,User,Meta,Meta,likely,180.0,Meta
+Google Waltham Cross,Owner,Google,Google,confident,88.0,Google
+Google Waltham Cross,User,Google DeepMind,Google,speculative,88.0,Google
+VNET Bayin Ulanqab,Owner,ByteDance,ByteDance,speculative,221.0,Other companies
+VNET Bayin Ulanqab,User,ByteDance,ByteDance,speculative,221.0,Other companies
+Google Arcola,Owner,Google,Google,confident,77.0,Google
+Google Arcola,User,Unknown,Unknown,unspecified,77.0,Unknown
+Google Red Oak,Owner,Google,Google,confident,77.0,Google
+Google Red Oak,User,Unknown,Unknown,unspecified,77.0,Unknown
+Google Papillion,Owner,Google,Google,confident,237.0,Google
+Google Papillion,User,Google DeepMind,Google,speculative,237.0,Google
+Meta Gallatin,Owner,Meta,Meta,confident,87.0,Meta
+Meta Gallatin,User,Meta,Meta,confident,87.0,Meta
+CoreWeave Ellendale ND,Owner,CoreWeave,CoreWeave,confident,68.0,Other companies
+CoreWeave Ellendale ND,User,OpenAI,OpenAI,speculative,68.0,OpenAI
+Meta Sarpy,Owner,Meta,Meta,confident,80.0,Meta
+Meta Sarpy,User,Meta,Meta,confident,80.0,Meta
+CoreWeave Chester VA,Owner,CoreWeave,CoreWeave,confident,82.0,Other companies
+CoreWeave Chester VA,User,OpenAI,OpenAI,speculative,82.0,OpenAI
+Oracle Batam,Owner,Oracle,Oracle,likely,72.0,Other companies
+Oracle Batam,User,Tencent,Tencent,speculative,72.0,Other companies
+AWS Berwick,Owner,Amazon,Amazon,confident,108.0,Amazon
+AWS Berwick,User,Anthropic,Anthropic,speculative,108.0,Anthropic
+Huawei Horinger,Owner,Huawei,Huawei,confident,169.9,Other companies
+Huawei Horinger,User,Unknown,Unknown,unspecified,169.9,Unknown
+CoreWeave Marble NC,Owner,CoreWeave,CoreWeave,confident,65.0,Other companies
+CoreWeave Marble NC,User,OpenAI,OpenAI,speculative,65.0,OpenAI
+Core42 Lake Mariner,Owner,Core42,Core42,confident,58.0,Other companies
+Core42 Lake Mariner,User,G42,G42,likely,58.0,Other companies
+Microsoft SAT40,Owner,Microsoft,Microsoft,confident,75.0,Other companies
+Microsoft SAT40,User,Unknown,Unknown,unspecified,75.0,Unknown
+STACK Infrastructure NVA02,Owner,Unknown,Unknown,unspecified,85.0,Unknown
+STACK Infrastructure NVA02,User,Unknown,Unknown,unspecified,85.0,Unknown
+Microsoft-Nebius New Jersey,Owner,Nebius,Nebius,confident,50.0,Other companies
+Microsoft-Nebius New Jersey,User,Microsoft,Microsoft,likely,50.0,Other companies
+Huawei Wuhu,Owner,Huawei,Huawei,confident,197.0,Other companies
+Huawei Wuhu,User,Unknown,Unknown,unspecified,197.0,Unknown
+CoreWeave Norway,Owner,CoreWeave,CoreWeave,confident,42.0,Other companies
+CoreWeave Norway,User,OpenAI,OpenAI,speculative,42.0,OpenAI
+Nebius Mantsala,Owner,Nebius,Nebius,confident,75.0,Other companies
+Nebius Mantsala,User,Microsoft,Microsoft,speculative,75.0,Other companies
+Envision Galaxy Ulanqab,Owner,Unknown,Unknown,unspecified,118.0,Unknown
+Envision Galaxy Ulanqab,User,Unknown,Unknown,unspecified,118.0,Unknown
+Southgate Melbourne,Owner,Firmus,Firmus,confident,41.0,Other companies
+Southgate Melbourne,User,Unknown,Unknown,unspecified,41.0,Unknown
+Stream Phoenix,Owner,Unknown,Unknown,unspecified,64.0,Unknown
+Stream Phoenix,User,Unknown,Unknown,unspecified,64.0,Unknown
+Microsoft SAT14,Owner,Microsoft,Microsoft,confident,47.0,Other companies
+Microsoft SAT14,User,Unknown,Unknown,unspecified,47.0,Unknown
+Vantage TX1,Owner,Unknown,Unknown,unspecified,32.0,Unknown
+Vantage TX1,User,Unknown,Unknown,unspecified,32.0,Unknown
+CoreWeave Dalton 1 & 2,Owner,CoreWeave,CoreWeave,confident,28.0,Other companies
+CoreWeave Dalton 1 & 2,User,OpenAI,OpenAI,speculative,28.0,OpenAI
+Alibaba Zhangbei,Owner,Alibaba,Alibaba,confident,169.0,Other companies
+Alibaba Zhangbei,User,Alibaba,Alibaba,likely,169.0,Other companies
+Start Campus Sines Data Campus,Owner,Nscale,Nscale,confident,33.0,Other companies
+Start Campus Sines Data Campus,User,Microsoft,Microsoft,confident,33.0,Other companies
+xAI QTS Atlanta,Owner,SpaceXAI,SpaceXAI,confident,17.32971,Other companies
+xAI QTS Atlanta,User,SpaceXAI,SpaceXAI,confident,17.32971,Other companies
+Nscale Keflavik,Owner,Nscale,Nscale,confident,5.11,Other companies
+Nscale Keflavik,User,Unknown,Unknown,unspecified,5.11,Unknown

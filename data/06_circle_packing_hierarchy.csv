@@ -1,0 +1,77 @@
+country,owner,site,mw,h100_equivalents,macroarea,owner_confidence
+Australia,Firmus,Southgate Melbourne,41.0,46488.125316,Rest of Asia Pacific,confident
+China,Alibaba,Alibaba Zhangbei,169.0,31884.790298,China,confident
+China,ByteDance,VNET Bayin Ulanqab,221.0,122789.287519,China,speculative
+China,Huawei,Huawei Horinger,169.9,81043.961597,China,confident
+China,Huawei,Huawei Wuhu,197.0,52830.722587,China,confident
+China,Unknown,Envision Galaxy Ulanqab,118.0,47931.278423,China,unknown
+Finland,Nebius,Nebius Mantsala,75.0,48527.920667,Europe,confident
+Iceland,Nscale,Nscale Keflavik,5.11,5821.121779,Europe,confident
+Indonesia,Oracle,Oracle Batam,72.0,84386.053562,Rest of Asia Pacific,likely
+Malaysia,ByteDance,Bridge Data Centres MY06,243.0,221051.541182,Rest of Asia Pacific,likely
+Malaysia,Unknown,DayOne Kempas,421.691664,480638.706417,Rest of Asia Pacific,unknown
+Malaysia,Unknown,DayOne Nusajaya,473.0,583836.786256,Rest of Asia Pacific,unknown
+Malaysia,Unknown,YTL Johor,113.0,153532.086913,Rest of Asia Pacific,unknown
+Norway,CoreWeave,CoreWeave Norway,42.0,50773.117736,Europe,confident
+Portugal,Nscale,Start Campus Sines Data Campus,33.0,31834.259727,Europe,confident
+United Kingdom,Google,Google Waltham Cross,88.0,123799.898939,Europe,confident
+United States,AI XPV Platform,Anthropic Lake Mariner,210.0,292829.711976,United States,confident
+United States,Amazon,AWS Berwick,108.0,81354.219303,United States,confident
+United States,Amazon,AWS New Albany,213.0,201111.672562,United States,confident
+United States,Amazon,Amazon Madison Mega Site,284.0,214348.143546,United States,confident
+United States,Amazon,Amazon Ridgeland,228.0,171298.635675,United States,confident
+United States,Amazon,Anthropic-Amazon New Carlisle,1037.0,818428.499242,United States,confident
+United States,Core42,Core42 Lake Mariner,58.0,71753.410814,United States,confident
+United States,CoreWeave,CoreWeave Chester VA,82.0,88428.499242,United States,confident
+United States,CoreWeave,CoreWeave Dalton 1 & 2,28.0,32238.504295,United States,confident
+United States,CoreWeave,CoreWeave Denton TX,262.0,252652.854977,United States,confident
+United States,CoreWeave,CoreWeave Ellendale ND,68.0,93481.556342,United States,confident
+United States,CoreWeave,CoreWeave Marble NC,65.0,78827.690753,United States,confident
+United States,CoreWeave,Coreweave Helios,132.0,159551.768237,United States,confident
+United States,Google,Google Arcola,77.0,108135.42193,United States,confident
+United States,Google,Google Bristow,238.0,209860.535624,United States,unspecified
+United States,Google,Google Columbus,303.0,331985.85144,United States,confident
+United States,Google,Google Council Bluffs (East),237.0,255684.689237,United States,confident
+United States,Google,Google Kansas City East,105.0,202627.589692,United States,confident
+United States,Google,Google Lancaster,137.0,130368.873168,United States,confident
+United States,Google,Google Lincoln,141.0,197574.532592,United States,confident
+United States,Google,Google Mesa,183.0,289540.171804,United States,confident
+United States,Google,Google Midlothian,103.0,143580.851187,United States,confident
+United States,Google,Google New Albany,333.0,323900.960081,United States,confident
+United States,Google,Google Omaha,237.0,198585.144012,United States,confident
+United States,Google,Google Papillion,237.0,100555.836281,United States,confident
+United States,Google,Google Pryor (North),368.0,636685.194543,United States,confident
+United States,Google,Google Red Oak,77.0,108135.42193,United States,confident
+United States,Google,Google Storey County,161.0,133906.013138,United States,confident
+United States,Google,Google The Dalles,154.0,175341.081354,United States,confident
+United States,Meta,Meta Aiken,129.0,147043.961597,United States,confident
+United States,Meta,Meta Cheyenne,152.0,172814.552804,United States,confident
+United States,Meta,Meta Eagle Mountain,133.0,151354.219303,United States,confident
+United States,Meta,Meta Gallatin,87.0,99545.224861,United States,confident
+United States,Meta,Meta Huntsville,146.0,166760.990399,United States,confident
+United States,Meta,Meta Jeffersonville,178.0,203132.895402,United States,confident
+United States,Meta,Meta Kuna,152.0,173247.672057,United States,confident
+United States,Meta,Meta Los Lunas,118.0,133906.013138,United States,confident
+United States,Meta,Meta Montgomery,153.0,174517.433047,United States,confident
+United States,Meta,Meta Prometheus,471.0,536343.001516,United States,confident
+United States,Meta,Meta Rosemount,178.0,215675.11521,United States,confident
+United States,Meta,Meta Sarpy,80.0,91965.639212,United States,confident
+United States,Meta,Meta Temple,178.0,202472.987771,United States,confident
+United States,Meta,Meta-QTS Hillsboro 2,180.0,123839.0,United States,likely
+United States,Microsoft,Microsoft Fairwater Atlanta,636.0,768768.722082,United States,confident
+United States,Microsoft,Microsoft Fairwater Wisconsin,369.0,445679.63618,United States,confident
+United States,Microsoft,Microsoft Goodyear,202.0,205154.118242,United States,confident
+United States,Microsoft,Microsoft Project Osmium,190.0,155634.158666,United States,confident
+United States,Microsoft,Microsoft SAT14,47.0,45174.33047,United States,confident
+United States,Microsoft,Microsoft SAT40,75.0,64679.130874,United States,confident
+United States,Nebius,Microsoft-Nebius New Jersey,50.0,56846.89237,United States,confident
+United States,Oracle,OpenAI Stargate Abilene,824.0,1018696.311268,United States,confident
+United States,SpaceXAI,Colossus 1,340.0,275795.856493,United States,confident
+United States,SpaceXAI,Colossus 2,946.0,1111672.5619,United States,confident
+United States,SpaceXAI,xAI QTS Atlanta,17.32971,11470.439616,United States,confident
+United States,Unknown,QTS Richmond 1,238.0,242546.740778,United States,unknown
+United States,Unknown,QTS Richmond 2,180.0,182920.667004,United States,unknown
+United States,Unknown,QTS Richmond 3,144.0,174835.775644,United States,unknown
+United States,Unknown,STACK Infrastructure NVA02,85.0,61141.990904,United States,unknown
+United States,Unknown,Stream Phoenix,64.0,46134.411319,United States,unknown
+United States,Unknown,Vantage TX1,32.0,38706.417383,United States,unknown

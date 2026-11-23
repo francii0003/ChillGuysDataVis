@@ -1,0 +1,6 @@
+macroarea,order,intensity_start,intensity_end,year_start,year_end,change,change_pct,direction,n_countries
+United States,1,462.631,384.403,2018,2025,-78.228,-16.909373,cleaner,1
+China,2,639.097,528.278,2018,2025,-110.819,-17.339934,cleaner,1
+Europe,3,352.12333,284.51984,2018,2025,-67.603497,-19.198812,cleaner,40
+Rest of Asia Pacific,4,627.16735,575.99366,2018,2025,-51.173687,-8.1594947,cleaner,24
+Rest of the world,5,426.93685,397.48665,2018,2025,-29.450206,-6.898024,cleaner,28

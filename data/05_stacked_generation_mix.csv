@@ -1,0 +1,283 @@
+country,macroarea,order,year,category,generation_twh,n_reported,n_expected,share_pct,category_order,group,source_status
+Argentina,Rest of the world,7,2025,Fossil,90.705,3,3,59.149,1,Fossil,reported
+Argentina,Rest of the world,7,2025,Renewables,51.884,4,5,33.834,2,Renewables,partial_source_coverage
+Argentina,Rest of the world,7,2025,Nuclear,10.761,1,1,7.017,3,Nuclear,reported
+Armenia,Rest of Asia Pacific,8,2025,Fossil,3.378,3,3,39.722,1,Fossil,reported
+Armenia,Rest of Asia Pacific,8,2025,Renewables,2.466,5,5,28.998,2,Renewables,reported
+Armenia,Rest of Asia Pacific,8,2025,Nuclear,2.661,1,1,31.291,3,Nuclear,reported
+Australia,Rest of Asia Pacific,10,2025,Fossil,172.233,3,3,60.237,1,Fossil,reported
+Australia,Rest of Asia Pacific,10,2025,Renewables,113.691,4,5,39.763,2,Renewables,partial_source_coverage
+Australia,Rest of Asia Pacific,10,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Austria,Europe,11,2025,Fossil,11.975,3,3,16.351,1,Fossil,reported
+Austria,Europe,11,2025,Renewables,61.263,5,5,83.647,2,Renewables,reported
+Austria,Europe,11,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Azerbaijan,Rest of Asia Pacific,12,2025,Fossil,24.698,3,3,88.971,1,Fossil,reported
+Azerbaijan,Rest of Asia Pacific,12,2025,Renewables,3.062,5,5,11.031,2,Renewables,reported
+Azerbaijan,Rest of Asia Pacific,12,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Bangladesh,Rest of Asia Pacific,15,2025,Fossil,101.179,3,3,97.86,1,Fossil,reported
+Bangladesh,Rest of Asia Pacific,15,2025,Renewables,2.212,5,5,2.14,2,Renewables,reported
+Bangladesh,Rest of Asia Pacific,15,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Belarus,Europe,17,2025,Fossil,27.197,3,3,59.867,1,Fossil,reported
+Belarus,Europe,17,2025,Renewables,1.257,5,5,2.767,2,Renewables,reported
+Belarus,Europe,17,2025,Nuclear,16.977,1,1,37.37,3,Nuclear,reported
+Belgium,Europe,18,2025,Fossil,20.131,3,3,27.929,1,Fossil,reported
+Belgium,Europe,18,2025,Renewables,27.802,5,5,38.571,2,Renewables,reported
+Belgium,Europe,18,2025,Nuclear,24.147,1,1,33.5,3,Nuclear,reported
+Bolivia,Rest of the world,22,2025,Fossil,8.703,3,3,63.897,1,Fossil,reported
+Bolivia,Rest of the world,22,2025,Renewables,4.918,5,5,36.107,2,Renewables,reported
+Bolivia,Rest of the world,22,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Bosnia Herzegovina,Europe,23,2025,Fossil,8.238,3,3,56.677,1,Fossil,reported
+Bosnia Herzegovina,Europe,23,2025,Renewables,6.296,5,5,43.316,2,Renewables,reported
+Bosnia Herzegovina,Europe,23,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Brazil,Rest of the world,25,2025,Fossil,84.53,3,3,11.069,1,Fossil,reported
+Brazil,Rest of the world,25,2025,Renewables,663.345,4,5,86.862,2,Renewables,partial_source_coverage
+Brazil,Rest of the world,25,2025,Nuclear,15.797,1,1,2.069,3,Nuclear,reported
+Bulgaria,Europe,27,2025,Fossil,10.706,3,3,28.121,1,Fossil,reported
+Bulgaria,Europe,27,2025,Renewables,12.508,5,5,32.854,2,Renewables,reported
+Bulgaria,Europe,27,2025,Nuclear,14.858,1,1,39.026,3,Nuclear,reported
+Cambodia,Rest of Asia Pacific,31,2025,Fossil,10.5,2,3,59.122,1,Fossil,partial_source_coverage
+Cambodia,Rest of Asia Pacific,31,2025,Renewables,7.26,3,5,40.879,2,Renewables,partial_source_coverage
+Cambodia,Rest of Asia Pacific,31,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Canada,Rest of the world,33,2025,Fossil,155.304,3,3,23.524,1,Fossil,reported
+Canada,Rest of the world,33,2025,Renewables,420.052,4,5,63.627,2,Renewables,partial_source_coverage
+Canada,Rest of the world,33,2025,Nuclear,84.826,1,1,12.849,3,Nuclear,reported
+Chile,Rest of the world,37,2025,Fossil,29.76,3,3,33.627,1,Fossil,reported
+Chile,Rest of the world,37,2025,Renewables,58.74,5,5,66.373,2,Renewables,reported
+Chile,Rest of the world,37,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+China,China,38,2025,Fossil,6190.551,3,3,58.926,1,Fossil,reported
+China,China,38,2025,Renewables,3829.959,4,5,36.456,2,Renewables,partial_source_coverage
+China,China,38,2025,Nuclear,485.23,1,1,4.619,3,Nuclear,reported
+Colombia,Rest of the world,39,2025,Fossil,20.845,3,3,23.052,1,Fossil,reported
+Colombia,Rest of the world,39,2025,Renewables,69.58,5,5,76.948,2,Renewables,reported
+Colombia,Rest of the world,39,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Costa Rica,Rest of the world,44,2025,Fossil,0.001,3,3,0.008,1,Fossil,reported
+Costa Rica,Rest of the world,44,2025,Renewables,12.935,5,5,99.995,2,Renewables,reported
+Costa Rica,Rest of the world,44,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Croatia,Europe,46,2025,Fossil,3.486,3,3,23.675,1,Fossil,reported
+Croatia,Europe,46,2025,Renewables,11.239,5,5,76.33,2,Renewables,reported
+Croatia,Europe,46,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Cyprus,Europe,48,2025,Fossil,4.327,3,3,74.934,1,Fossil,reported
+Cyprus,Europe,48,2025,Renewables,1.448,5,5,25.076,2,Renewables,reported
+Cyprus,Europe,48,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Czechia,Europe,49,2025,Fossil,30.799,3,3,40.78,1,Fossil,reported
+Czechia,Europe,49,2025,Renewables,12.779,5,5,16.919,2,Renewables,reported
+Czechia,Europe,49,2025,Nuclear,31.948,1,1,42.301,3,Nuclear,reported
+Denmark,Europe,50,2025,Fossil,3.15,3,3,8.846,1,Fossil,reported
+Denmark,Europe,50,2025,Renewables,32.462,5,5,91.154,2,Renewables,reported
+Denmark,Europe,50,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Dominican Republic,Rest of the world,53,2025,Fossil,17.254,3,3,76.248,1,Fossil,reported
+Dominican Republic,Rest of the world,53,2025,Renewables,5.375,5,5,23.753,2,Renewables,reported
+Dominican Republic,Rest of the world,53,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Ecuador,Rest of the world,54,2025,Fossil,7.524,3,3,20.569,1,Fossil,reported
+Ecuador,Rest of the world,54,2025,Renewables,29.055,5,5,79.432,2,Renewables,reported
+Ecuador,Rest of the world,54,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Egypt,Rest of the world,55,2025,Fossil,208.318,3,3,85.933,1,Fossil,reported
+Egypt,Rest of the world,55,2025,Renewables,34.1,4,5,14.067,2,Renewables,partial_source_coverage
+Egypt,Rest of the world,55,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+El Salvador,Rest of the world,56,2025,Fossil,0.443,1,3,6.743,1,Fossil,partial_source_coverage
+El Salvador,Rest of the world,56,2025,Renewables,6.127,5,5,93.256,2,Renewables,reported
+El Salvador,Rest of the world,56,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Estonia,Europe,59,2025,Fossil,2.469,3,3,40.218,1,Fossil,reported
+Estonia,Europe,59,2025,Renewables,3.671,5,5,59.797,2,Renewables,reported
+Estonia,Europe,59,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Ethiopia,Rest of the world,61,2025,Fossil,0,3,3,0,1,Fossil,reported
+Ethiopia,Rest of the world,61,2025,Renewables,33.37,5,5,100,2,Renewables,reported
+Ethiopia,Rest of the world,61,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Finland,Europe,65,2025,Fossil,3.137,3,3,3.804,1,Fossil,reported
+Finland,Europe,65,2025,Renewables,46.541,5,5,56.425,2,Renewables,reported
+Finland,Europe,65,2025,Nuclear,32.804,1,1,39.771,3,Nuclear,reported
+France,Europe,66,2025,Fossil,29.332,3,3,5.106,1,Fossil,reported
+France,Europe,66,2025,Renewables,152.991,5,5,26.636,2,Renewables,reported
+France,Europe,66,2025,Nuclear,392.048,1,1,68.257,3,Nuclear,reported
+Georgia,Rest of Asia Pacific,71,2025,Fossil,2.765,3,3,20.478,1,Fossil,reported
+Georgia,Rest of Asia Pacific,71,2025,Renewables,10.738,5,5,79.526,2,Renewables,reported
+Georgia,Rest of Asia Pacific,71,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Germany,Europe,72,2025,Fossil,206.465,3,3,41.539,1,Fossil,reported
+Germany,Europe,72,2025,Renewables,290.57,5,5,58.461,2,Renewables,reported
+Germany,Europe,72,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Greece,Europe,74,2025,Fossil,30.245,3,3,52.211,1,Fossil,reported
+Greece,Europe,74,2025,Renewables,27.682,5,5,47.787,2,Renewables,reported
+Greece,Europe,74,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Hungary,Europe,86,2025,Fossil,9.885,3,3,24.636,1,Fossil,reported
+Hungary,Europe,86,2025,Renewables,14.152,5,5,35.27,2,Renewables,reported
+Hungary,Europe,86,2025,Nuclear,16.089,1,1,40.097,3,Nuclear,reported
+Iceland,Europe,87,2025,Fossil,0,3,3,0,1,Fossil,reported
+Iceland,Europe,87,2025,Renewables,18.266,5,5,100.002,2,Renewables,reported
+Iceland,Europe,87,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+India,Rest of Asia Pacific,88,2025,Fossil,1526.767,3,3,73.396,1,Fossil,reported
+India,Rest of Asia Pacific,88,2025,Renewables,499.584,4,5,24.017,2,Renewables,partial_source_coverage
+India,Rest of Asia Pacific,88,2025,Nuclear,53.811,1,1,2.587,3,Nuclear,reported
+Indonesia,Rest of Asia Pacific,89,2025,Fossil,444.714,3,3,84.193,1,Fossil,reported
+Indonesia,Rest of Asia Pacific,89,2025,Renewables,83.493,5,5,15.807,2,Renewables,reported
+Indonesia,Rest of Asia Pacific,89,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Iran,Rest of the world,90,2025,Fossil,377.925,3,3,94.795,1,Fossil,reported
+Iran,Rest of the world,90,2025,Renewables,15.367,4,5,3.855,2,Renewables,partial_source_coverage
+Iran,Rest of the world,90,2025,Nuclear,5.388,1,1,1.351,3,Nuclear,reported
+Ireland,Europe,92,2025,Fossil,16.685,3,3,52.798,1,Fossil,reported
+Ireland,Europe,92,2025,Renewables,14.916,5,5,47.201,2,Renewables,reported
+Ireland,Europe,92,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Israel,Rest of the world,93,2025,Fossil,68.2,3,3,83.069,1,Fossil,reported
+Israel,Rest of the world,93,2025,Renewables,13.9,5,5,16.93,2,Renewables,reported
+Israel,Rest of the world,93,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Italy,Europe,94,2025,Fossil,136.08,3,3,51.313,1,Fossil,reported
+Italy,Europe,94,2025,Renewables,129.118,5,5,48.687,2,Renewables,reported
+Italy,Europe,94,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Japan,Rest of Asia Pacific,96,2025,Fossil,687.825,3,3,66.951,1,Fossil,reported
+Japan,Rest of Asia Pacific,96,2025,Renewables,245.462,4,5,23.894,2,Renewables,partial_source_coverage
+Japan,Rest of Asia Pacific,96,2025,Nuclear,94.065,1,1,9.156,3,Nuclear,reported
+Kazakhstan,Rest of Asia Pacific,98,2025,Fossil,106.766,3,3,85.845,1,Fossil,reported
+Kazakhstan,Rest of Asia Pacific,98,2025,Renewables,17.605,4,5,14.155,2,Renewables,partial_source_coverage
+Kazakhstan,Rest of Asia Pacific,98,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Kenya,Rest of the world,99,2025,Fossil,1.398,3,3,9.951,1,Fossil,reported
+Kenya,Rest of the world,99,2025,Renewables,12.651,5,5,90.054,2,Renewables,reported
+Kenya,Rest of the world,99,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Kosovo,Europe,101,2025,Fossil,5.245,3,3,89.451,1,Fossil,reported
+Kosovo,Europe,101,2025,Renewables,0.618,5,5,10.54,2,Renewables,reported
+Kosovo,Europe,101,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Kuwait,Rest of the world,102,2025,Fossil,87.445,3,3,97.661,1,Fossil,reported
+Kuwait,Rest of the world,102,2025,Renewables,2.094,5,5,2.338,2,Renewables,reported
+Kuwait,Rest of the world,102,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Kyrgyzstan,Rest of Asia Pacific,103,2025,Fossil,0.839,3,3,6.53,1,Fossil,reported
+Kyrgyzstan,Rest of Asia Pacific,103,2025,Renewables,12.01,5,5,93.47,2,Renewables,reported
+Kyrgyzstan,Rest of Asia Pacific,103,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Latvia,Europe,105,2025,Fossil,1.65,3,3,26.496,1,Fossil,reported
+Latvia,Europe,105,2025,Renewables,4.578,5,5,73.516,2,Renewables,reported
+Latvia,Europe,105,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Lithuania,Europe,110,2025,Fossil,1.972,3,3,22.292,1,Fossil,reported
+Lithuania,Europe,110,2025,Renewables,6.875,5,5,77.715,2,Renewables,reported
+Lithuania,Europe,110,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Luxembourg,Europe,111,2025,Fossil,0.137,3,3,8.579,1,Fossil,reported
+Luxembourg,Europe,111,2025,Renewables,1.461,5,5,91.485,2,Renewables,reported
+Luxembourg,Europe,111,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Malaysia,Rest of Asia Pacific,115,2025,Fossil,167.43,3,3,79.588,1,Fossil,reported
+Malaysia,Rest of Asia Pacific,115,2025,Renewables,42.939,4,5,20.412,2,Renewables,partial_source_coverage
+Malaysia,Rest of Asia Pacific,115,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Malta,Europe,118,2025,Fossil,1.86,3,3,83.492,1,Fossil,reported
+Malta,Europe,118,2025,Renewables,0.367,5,5,16.474,2,Renewables,reported
+Malta,Europe,118,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Mexico,Rest of the world,122,2025,Fossil,295.505,3,3,75.823,1,Fossil,reported
+Mexico,Rest of the world,122,2025,Renewables,84.122,4,5,21.586,2,Renewables,partial_source_coverage
+Mexico,Rest of the world,122,2025,Nuclear,10.105,1,1,2.593,3,Nuclear,reported
+Moldova,Europe,123,2025,Fossil,2.087,3,3,71.559,1,Fossil,reported
+Moldova,Europe,123,2025,Renewables,0.829,5,5,28.425,2,Renewables,reported
+Moldova,Europe,123,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Mongolia,Rest of Asia Pacific,124,2025,Fossil,8.911,3,3,91.394,1,Fossil,reported
+Mongolia,Rest of Asia Pacific,124,2025,Renewables,0.84,5,5,8.615,2,Renewables,reported
+Mongolia,Rest of Asia Pacific,124,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Montenegro,Europe,125,2025,Fossil,0.618,3,3,25.433,1,Fossil,reported
+Montenegro,Europe,125,2025,Renewables,1.812,5,5,74.571,2,Renewables,reported
+Montenegro,Europe,125,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Morocco,Rest of the world,127,2025,Fossil,33.901,3,3,76.786,1,Fossil,reported
+Morocco,Rest of the world,127,2025,Renewables,10.249,5,5,23.214,2,Renewables,reported
+Morocco,Rest of the world,127,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Netherlands,Europe,133,2025,Fossil,61.908,3,3,45.846,1,Fossil,reported
+Netherlands,Europe,133,2025,Renewables,69.142,5,5,51.203,2,Renewables,reported
+Netherlands,Europe,133,2025,Nuclear,3.985,1,1,2.951,3,Nuclear,reported
+New Zealand,Rest of Asia Pacific,135,2025,Fossil,5.205,3,3,11.832,1,Fossil,reported
+New Zealand,Rest of Asia Pacific,135,2025,Renewables,38.784,5,5,88.168,2,Renewables,reported
+New Zealand,Rest of Asia Pacific,135,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Nigeria,Rest of the world,138,2025,Fossil,28.922,3,3,68.017,1,Fossil,reported
+Nigeria,Rest of the world,138,2025,Renewables,13.6,5,5,31.984,2,Renewables,reported
+Nigeria,Rest of the world,138,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+North Macedonia,Europe,140,2025,Fossil,3.502,3,3,49.227,1,Fossil,reported
+North Macedonia,Europe,140,2025,Renewables,3.612,5,5,50.773,2,Renewables,reported
+North Macedonia,Europe,140,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Norway,Europe,141,2025,Fossil,1.615,3,3,1.004,1,Fossil,reported
+Norway,Europe,141,2025,Renewables,159.239,5,5,98.996,2,Renewables,reported
+Norway,Europe,141,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Oman,Rest of the world,142,2025,Fossil,50.291,3,3,94.799,1,Fossil,reported
+Oman,Rest of the world,142,2025,Renewables,2.759,5,5,5.201,2,Renewables,reported
+Oman,Rest of the world,142,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Pakistan,Rest of Asia Pacific,143,2025,Fossil,66.68,3,3,38.981,1,Fossil,reported
+Pakistan,Rest of Asia Pacific,143,2025,Renewables,80.38,4,5,46.989,2,Renewables,partial_source_coverage
+Pakistan,Rest of Asia Pacific,143,2025,Nuclear,24,1,1,14.03,3,Nuclear,reported
+Paraguay,Rest of the world,147,2025,Fossil,0,3,3,0,1,Fossil,reported
+Paraguay,Rest of the world,147,2025,Renewables,45.35,5,5,100,2,Renewables,reported
+Paraguay,Rest of the world,147,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Peru,Rest of the world,148,2025,Fossil,21.984,3,3,36.334,1,Fossil,reported
+Peru,Rest of the world,148,2025,Renewables,38.52,5,5,63.663,2,Renewables,reported
+Peru,Rest of the world,148,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Poland,Europe,149,2025,Fossil,118.813,3,3,68.778,1,Fossil,reported
+Poland,Europe,149,2025,Renewables,53.936,5,5,31.222,2,Renewables,reported
+Poland,Europe,149,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Portugal,Europe,150,2025,Fossil,9.773,3,3,19.118,1,Fossil,reported
+Portugal,Europe,150,2025,Renewables,41.346,5,5,80.881,2,Renewables,reported
+Portugal,Europe,150,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Puerto Rico,Rest of the world,151,2025,Fossil,18.398,3,3,94.14,1,Fossil,reported
+Puerto Rico,Rest of the world,151,2025,Renewables,1.145,5,5,5.858,2,Renewables,reported
+Puerto Rico,Rest of the world,151,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Romania,Europe,154,2025,Fossil,16.09,3,3,32.314,1,Fossil,reported
+Romania,Europe,154,2025,Renewables,23.498,5,5,47.191,2,Renewables,reported
+Romania,Europe,154,2025,Nuclear,10.205,1,1,20.495,3,Nuclear,reported
+Russia,Europe,155,2025,Fossil,768.232,3,3,64.318,1,Fossil,reported
+Russia,Europe,155,2025,Renewables,207.581,4,5,17.379,2,Renewables,partial_source_coverage
+Russia,Europe,155,2025,Nuclear,218.624,1,1,18.304,3,Nuclear,reported
+Saudi Arabia,Rest of the world,163,2025,Fossil,451.658,3,3,95.807,1,Fossil,reported
+Saudi Arabia,Rest of the world,163,2025,Renewables,19.767,3,5,4.193,2,Renewables,partial_source_coverage
+Saudi Arabia,Rest of the world,163,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Serbia,Europe,165,2025,Fossil,25.984,3,3,71.723,1,Fossil,reported
+Serbia,Europe,165,2025,Renewables,10.245,5,5,28.278,2,Renewables,reported
+Serbia,Europe,165,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Singapore,Rest of Asia Pacific,168,2025,Fossil,56.816,3,3,94.515,1,Fossil,reported
+Singapore,Rest of Asia Pacific,168,2025,Renewables,3.297,2,5,5.484,2,Renewables,partial_source_coverage
+Singapore,Rest of Asia Pacific,168,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Slovakia,Europe,169,2025,Fossil,4.332,3,3,14.894,1,Fossil,reported
+Slovakia,Europe,169,2025,Renewables,5.428,5,5,18.664,2,Renewables,reported
+Slovakia,Europe,169,2025,Nuclear,19.322,1,1,66.436,3,Nuclear,reported
+Slovenia,Europe,170,2025,Fossil,3.137,3,3,21.12,1,Fossil,reported
+Slovenia,Europe,170,2025,Renewables,5.878,5,5,39.576,2,Renewables,reported
+Slovenia,Europe,170,2025,Nuclear,5.836,1,1,39.293,3,Nuclear,reported
+South Africa,Rest of the world,173,2025,Fossil,199.483,3,3,82.163,1,Fossil,reported
+South Africa,Rest of the world,173,2025,Renewables,33.094,4,5,13.631,2,Renewables,partial_source_coverage
+South Africa,Rest of the world,173,2025,Nuclear,10.21,1,1,4.205,3,Nuclear,reported
+South Korea,Rest of Asia Pacific,174,2025,Fossil,377.508,3,3,60.129,1,Fossil,reported
+South Korea,Rest of Asia Pacific,174,2025,Renewables,65.634,4,5,10.454,2,Renewables,partial_source_coverage
+South Korea,Rest of Asia Pacific,174,2025,Nuclear,184.693,1,1,29.417,3,Nuclear,reported
+Spain,Europe,176,2025,Fossil,73.199,3,3,25.389,1,Fossil,reported
+Spain,Europe,176,2025,Renewables,161.001,5,5,55.842,2,Renewables,reported
+Spain,Europe,176,2025,Nuclear,54.113,1,1,18.769,3,Nuclear,reported
+Sri Lanka,Rest of Asia Pacific,177,2025,Fossil,7.734,2,3,41.653,1,Fossil,partial_source_coverage
+Sri Lanka,Rest of Asia Pacific,177,2025,Renewables,10.833,5,5,58.343,2,Renewables,reported
+Sri Lanka,Rest of Asia Pacific,177,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+Sweden,Europe,180,2025,Fossil,2.091,3,3,1.228,1,Fossil,reported
+Sweden,Europe,180,2025,Renewables,121.502,5,5,71.368,2,Renewables,reported
+Sweden,Europe,180,2025,Nuclear,46.654,1,1,27.404,3,Nuclear,reported
+Switzerland,Europe,181,2025,Fossil,1.503,2,3,2.311,1,Fossil,partial_source_coverage
+Switzerland,Europe,181,2025,Renewables,44.094,5,5,67.813,2,Renewables,reported
+Switzerland,Europe,181,2025,Nuclear,19.426,1,1,29.876,3,Nuclear,reported
+Taiwan (China),Rest of Asia Pacific,183,2025,Fossil,249.801,3,3,86.457,1,Fossil,reported
+Taiwan (China),Rest of Asia Pacific,183,2025,Renewables,35.892,4,5,12.422,2,Renewables,partial_source_coverage
+Taiwan (China),Rest of Asia Pacific,183,2025,Nuclear,3.237,1,1,1.12,3,Nuclear,reported
+Tajikistan,Rest of Asia Pacific,184,2025,Fossil,1.349,3,3,5.616,1,Fossil,reported
+Tajikistan,Rest of Asia Pacific,184,2025,Renewables,22.674,5,5,94.388,2,Renewables,reported
+Tajikistan,Rest of Asia Pacific,184,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Thailand,Rest of Asia Pacific,186,2025,Fossil,157.046,3,3,78.328,1,Fossil,reported
+Thailand,Rest of Asia Pacific,186,2025,Renewables,43.451,4,5,21.673,2,Renewables,partial_source_coverage
+Thailand,Rest of Asia Pacific,186,2025,Nuclear,,0,1,,3,Nuclear,absent_in_source
+The Philippines,Rest of Asia Pacific,187,2025,Fossil,94.448,3,3,76.687,1,Fossil,reported
+The Philippines,Rest of Asia Pacific,187,2025,Renewables,28.713,5,5,23.314,2,Renewables,reported
+The Philippines,Rest of Asia Pacific,187,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Tunisia,Rest of the world,191,2025,Fossil,21.521,3,3,96.158,1,Fossil,reported
+Tunisia,Rest of the world,191,2025,Renewables,0.86,5,5,3.843,2,Renewables,reported
+Tunisia,Rest of the world,191,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Türkiye,Europe,194,2025,Fossil,200.79,3,3,56.742,1,Fossil,reported
+Türkiye,Europe,194,2025,Renewables,153.07,5,5,43.257,2,Renewables,reported
+Türkiye,Europe,194,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+United Arab Emirates,Rest of the world,197,2025,Fossil,126.179,3,3,68.422,1,Fossil,reported
+United Arab Emirates,Rest of the world,197,2025,Renewables,19.178,4,5,10.399,2,Renewables,partial_source_coverage
+United Arab Emirates,Rest of the world,197,2025,Nuclear,39.053,1,1,21.177,3,Nuclear,reported
+United Kingdom,Europe,198,2025,Fossil,105.095,3,3,35.789,1,Fossil,reported
+United Kingdom,Europe,198,2025,Renewables,152.187,5,5,51.825,2,Renewables,reported
+United Kingdom,Europe,198,2025,Nuclear,36.378,1,1,12.388,3,Nuclear,reported
+United States,United States,199,2025,Fossil,2576.21,3,3,56.998,1,Fossil,reported
+United States,United States,199,2025,Renewables,1158.8,5,5,25.64,2,Renewables,reported
+United States,United States,199,2025,Nuclear,784.78,1,1,17.363,3,Nuclear,reported
+Uruguay,Rest of the world,200,2025,Fossil,0.274,3,3,2.28,1,Fossil,reported
+Uruguay,Rest of the world,200,2025,Renewables,11.745,5,5,97.726,2,Renewables,reported
+Uruguay,Rest of the world,200,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Uzbekistan,Rest of Asia Pacific,201,2025,Fossil,69.9,3,3,80.622,1,Fossil,reported
+Uzbekistan,Rest of Asia Pacific,201,2025,Renewables,16.8,5,5,19.377,2,Renewables,reported
+Uzbekistan,Rest of Asia Pacific,201,2025,Nuclear,0,1,1,0,3,Nuclear,reported
+Viet Nam,Rest of Asia Pacific,204,2025,Fossil,177.531,3,3,53.953,1,Fossil,reported
+Viet Nam,Rest of Asia Pacific,204,2025,Renewables,151.512,4,5,46.047,2,Renewables,partial_source_coverage
+Viet Nam,Rest of Asia Pacific,204,2025,Nuclear,0,1,1,0,3,Nuclear,reported

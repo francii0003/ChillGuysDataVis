@@ -4,14 +4,44 @@ export const section = `<section class="chart-section" id="waffle" aria-labelled
         <p class="chart-lede">One hundred squares represent all the electricity consumed by data centers worldwide in 2024. Each square is about 1% of the total, roughly 4.2 TWh.</p>
         <figure class="figure">
           <div class="chart-frame" id="chart-waffle">
-            <p>Regional values are available in the <a href="data/01_waffle_dc_electricity_by_area_2024.csv">source CSV</a>.</p>
+            <p class="chart-placeholder">Loading chart…</p>
           </div>
-          <figcaption>Figure 1. Share of world data center electricity consumption in 2024, by area.</figcaption>
+          <figcaption class="figure-caption">
+            <p class="figure-title"><strong>Figure 1.</strong> Share of world data center electricity consumption in 2024, by area.</p>
+            <details class="chart-data-details">
+              <summary class="chart-data-summary">
+                <span><strong>Data:</strong> IEA, 2024</span>
+                <span aria-hidden="true">·</span>
+                <a href="data/01_waffle_dc_electricity_by_area_2024.csv" download>Download CSV</a>
+                <span aria-hidden="true">·</span>
+                <span class="notes-toggle">Notes <span class="plus-icon" aria-hidden="true">+</span></span>
+              </summary>
+              <p class="chart-note">
+                IEA, Energy and AI (Regional Data, total electricity consumption, 2024). <br>The figure covers all data centers, not only AI, and includes cooling and facility overhead. <br>IEA regions overlap, so Rest of Asia Pacific is Asia Pacific minus China, and Rest of the world is the remainder. <br>Squares are rounded to whole numbers, so a count can differ by one from the exact share.
+              </p>
+            </details>
+          </figcaption>
         </figure>
-        <p class="chart-note"><strong>Data.</strong> IEA, Energy and AI (Regional Data, total electricity consumption, 2024). The figure covers all data centers, not only AI, and includes cooling and facility overhead. IEA regions overlap, so Rest of Asia Pacific is Asia Pacific minus China, and Rest of the world is the remainder.</p>
-        <p class="prose">Together, the United States and China accounted for 285 TWh, about 69% of global data center electricity use in 2024.</p>
+        <div class="takeaway">
+          <p class="takeaway-figure">69%</p>
+          <p class="takeaway-text">of global data center electricity use in 2024 was consumed in just two countries, the United States and China, which together used <strong>285 TWh</strong>.</p>
+        </div>
+        <div class="chart-text">
+          <p>To get a sense of that scale, consider Italy: according to <a href="https://www.qualenergia.it/articoli/anno-2024-premia-rinnovabili-ma-target-2030-ancora-lontano/"> Terna</a>, the Italian grid operator, the country consumed 312.3 TWh of electricity in 2024. The data centers of just two countries therefore used about nine tenths of what Italy consumes in a whole year, and all the data centers in the world together (416 TWh) used about a third more than Italy. <br> This is a comparison of scale only, because the IEA figures cover every kind of data center, not just those that run AI.</p>
+          <p>Europe follows with 68 TWh (16%) and the rest of Asia Pacific with 48 TWh (about 12%). All other regions together, from Africa and Latin America to the Middle East, add up to 15 TWh, less than 4% of the total.</p>
+          <p>And this is only the starting point. In its Base Case, the IEA expects data center electricity use to more than double by 2030, from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that new demand is expected to come from.</p>
+        </div>
       </div>
     </section>`;
+
+const AREA_SLUG = {
+  "United States": "us",
+  "China": "cn",
+  "Europe": "eu",
+  "Rest of Asia Pacific": "apac",
+  "Rest of the world": "row"
+};
+const slug = row => AREA_SLUG[row.area] ?? "other";
 
 export async function render(sectionRoot) {
   const frame = sectionRoot.querySelector("#chart-waffle");
@@ -22,21 +52,52 @@ export async function render(sectionRoot) {
     throw new Error("Expected 100 squares in the regional allocation.");
   }
 
-  const category = row => `cat-${row.order}`;
+  const fmtTwh = d3.format(",.0f");
   const cells = rows.flatMap(row => Array(row.squares).fill(row));
+
   const svg = d3.create("svg")
+    .attr("id", "waffle-cells")
     .attr("class", "waffle-grid")
     .attr("width", 210).attr("height", 210)
     .attr("viewBox", "0 0 198 198")
     .attr("role", "img")
     .attr("aria-label", "Regional shares of data center electricity use. Values are listed in the adjacent table.");
 
-  svg.selectAll("rect").data(cells).join("rect")
-    .attr("class", category)
+  const marks = svg.append("g").selectAll("rect").data(cells).join("rect")
+    .attr("class", row => `waffle-cell waffle-${slug(row)}`)
     .attr("x", (_, i) => (i % 10) * 20)
     .attr("y", (_, i) => Math.floor(i / 10) * 20)
-    .attr("width", 18).attr("height", 18).attr("rx", 2)
-    .append("title").text(row => `${row.area}: ${row.share_pct.toFixed(1)}%`);
+    .attr("width", 18).attr("height", 18).attr("rx", 2);
+
+  const tip = svg.append("g").attr("class", "waffle-tip").attr("aria-hidden", "true");
+  const tipBox = tip.append("rect").attr("rx", 2.5);
+  const tipText = tip.append("text");
+
+  function showTip(event, row) {
+    const lines = [
+      row.area,
+      `${fmtTwh(row.twh_2024)} TWh`,
+      `${row.share_pct.toFixed(1)}% of the world total`
+    ];
+    tipText.selectAll("tspan").data(lines).join("tspan")
+      .attr("class", (_, i) => (i === 0 ? "waffle-tip-title" : null))
+      .attr("x", 6)
+      .attr("y", (_, i) => 12 + i * 10)
+      .text(line => line);
+
+    const box = tipText.node().getBBox();
+    const w = box.x + box.width + 6;
+    const h = box.y + box.height + 5;
+    tipBox.attr("width", w).attr("height", h);
+
+    const [px, py] = d3.pointer(event, svg.node());
+    let x = px + 8;
+    let y = py - h - 6;
+    if (x + w > 198) x = px - w - 8;
+    if (y < 0) y = py + 10;
+    tip.attr("transform", `translate(${Math.max(0, x)},${y})`).classed("is-on", true);
+  }
+  const hideTip = () => tip.classed("is-on", false);
 
   const table = d3.create("table");
   table.append("caption").text(`World total · ${d3.sum(rows, row => row.twh_2024)} TWh`);
@@ -48,12 +109,11 @@ export async function render(sectionRoot) {
   const buttons = labels.append("button").attr("type", "button")
     .attr("aria-pressed", "false").attr("aria-controls", "waffle-cells");
   buttons.append("span").attr("aria-hidden", "true")
-    .attr("class", row => `waffle-key waffle-key-${row.order}`);
+    .attr("class", row => `waffle-key waffle-key-${slug(row)}`);
   buttons.append("span").text(row => row.area);
   entries.append("td").text(row => row.twh_2024);
   entries.append("td").text(row => row.share_pct.toFixed(1) + "%");
 
-  const marks = svg.attr("id", "waffle-cells").selectAll("rect");
   let selected = null;
   let hovered = null;
 
@@ -63,6 +123,26 @@ export async function render(sectionRoot) {
     buttons.attr("aria-pressed", row => row.area === selected);
     entries.classed("waffle-active", row => row.area === active);
   }
+
+  marks
+    .on("pointerenter", (event, row) => {
+      if (event.pointerType === "touch") return;
+      hovered = row.area;
+      highlight();
+      showTip(event, row);
+    })
+    .on("pointermove", (event, row) => {
+      if (event.pointerType !== "touch") showTip(event, row);
+    })
+    .on("pointerleave", () => {
+      hovered = null;
+      highlight();
+      hideTip();
+    })
+    .on("click", (_, row) => {
+      selected = selected === row.area ? null : row.area;
+      highlight();
+    });
 
   entries.on("pointerenter", (event, row) => {
     if (event.pointerType === "mouse") {
@@ -87,6 +167,6 @@ export async function render(sectionRoot) {
 
   const legend = d3.create("div").attr("class", "waffle-legend");
   legend.node().append(table.node());
-  legend.append("p").text("Select an area to highlight its squares. Select it again to show all areas.");
+  legend.append("p").text("Hover over a square, or select an area in the table, to highlight it. Select it again to show all areas.");
   frame.replaceChildren(svg.node(), legend.node());
 }

@@ -31,3 +31,70 @@ export function bottomAxis(svg, scale, y, unit, format) {
   svg.append("g").attr("class","axis").attr("transform",`translate(0,${y})`).call(axis);
   textAt(svg, d3.mean(scale.range()), y + 42, unit, "middle");
 }
+
+// Keep the details visible while a mark is pinned, including when the plot scrolls.
+export function inspectMarks(svg, legend, hint) {
+  const detail = d3.select(legend.node().parentNode)
+    .insert("p", ".plot-scroll")
+    .attr("class", "figure-inspection")
+    .attr("aria-live", "polite");
+  svg.attr("role", "group");
+  let render = () => {};
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") render();
+  });
+
+  return (marks, describe) => {
+    const values = marks.data();
+    let pinned = null;
+    let preview = null;
+
+    function update() {
+      const active = preview ?? pinned;
+      marks.classed("inspection-muted", (_, index) => active !== null && index !== active)
+        .attr("aria-pressed", (_, index) => index === pinned);
+      detail.text(active === null ? hint : describe(values[active]));
+    }
+
+    function toggle(index) {
+      pinned = pinned === index ? null : index;
+      preview = null;
+      update();
+    }
+
+    function clearPreview() {
+      preview = null;
+      update();
+    }
+
+    const indices = new Map(marks.nodes().map((node, index) => [node, index]));
+    marks.classed("inspection-mark", true)
+      .attr("role", "button")
+      .attr("tabindex", 0)
+      .attr("aria-label", describe)
+      .on("pointerenter", function (event) {
+        if (event.pointerType === "touch") return;
+        preview = indices.get(this);
+        update();
+      })
+      .on("pointerleave", clearPreview)
+      .on("focus", function () {
+        preview = indices.get(this);
+        update();
+      })
+      .on("blur", clearPreview)
+      .on("click", function () { toggle(indices.get(this)); })
+      .on("keydown", function (event) {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        if (!event.repeat) toggle(indices.get(this));
+      });
+
+    render = () => {
+      pinned = null;
+      clearPreview();
+    };
+    update();
+  };
+}

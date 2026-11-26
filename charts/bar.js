@@ -1,7 +1,7 @@
 export const section = `<section class="chart-section" id="bar" aria-labelledby="bar-title">
   <div class="container">
     <h2 id="bar-title">How much new electricity will data centers need by 2030?</h2>
-    <p class="chart-lede">The increase in yearly consumption between 2024 and 2030 in the IEA Base Case, for the same areas as Figure 1.</p>
+    <p class="chart-lede">The increase in yearly consumption <strong>between 2024 and 2030 in the IEA Base Case</strong>, for the same areas as Figure 1.</p>
     <figure class="figure">
       <div class="chart-frame" id="chart-bar">
         <p class="chart-placeholder">Loading chart…</p>
@@ -27,7 +27,7 @@ export const section = `<section class="chart-section" id="bar" aria-labelledby=
       <p class="takeaway-text">of added annual data center electricity demand worldwide between 2024 and 2030 in the IEA Base Case: <strong> more than doubling global consumption in just six years</strong>.</p>
     </div>
     <div class="chart-text">
-      <p>What stands out most is the pace of that jump: in just six years, the new electricity added each year by data centers is projected to exceed the entire 416 TWh consumed worldwide in 2024. The United States (+243 TWh) and China (+175 TWh) alone account for 418 TWh of that growth, or nearly four fifths of the global increase.</p>
+      <p>What stands out most is the pace of that jump: in just six years, the new electricity added each year by data centers is projected to exceed the entire 416 TWh consumed worldwide in 2024. The <strong>United States (+243 TWh) and China (+175 TWh)</strong> alone account for 418 TWh of that growth, or <strong>nearly four fifths of the global increase</strong>.</p>
       <p>Rest of Asia Pacific adds 53 TWh, Europe adds 45 TWh, and the rest of the world adds 14 TWh. Even combined, every other region grows by less than a third of the United States and China together.</p>
       <p>It is no coincidence that the sharpest surges sit right where the biggest cloud and AI operators are concentrated. <a href="#grouped">Figure 3</a> looks closer at who owns AI computing capacity and who uses it.</p>
     </div>

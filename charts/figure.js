@@ -10,8 +10,6 @@ export async function figure(root, name, filename, height, width = 800) {
     .attr("role","region").attr("aria-label","Scrollable chart");
   const svg = scroll.append("svg").attr("viewBox", `0 0 ${width} ${height}`)
     .attr("role","img").attr("aria-labelledby", name + "-title");
-  d3.select(root).select(".chart-note").append("a").attr("href",url)
-    .text(" Download data (CSV).");
   return {rows, svg, legend};
 }
 

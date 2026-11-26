@@ -1,7 +1,7 @@
 export const section = `<section class="chart-section" id="grouped" aria-labelledby="grouped-title">
   <div class="container">
     <h2 id="grouped-title">Who owns AI computing capacity, and who uses it?</h2>
-    <p class="chart-lede">For each company, the power of the data centers it owns is shown next to the power of the data centers where it is listed as a user. <br>Unlike the annual electricity totals (TWh) in Figures 1 and 2, megawatts (MW) measure instant electrical power capacity: how large each facility's grid draw is at full operation.</p>    <figure class="figure">
+    <p class="chart-lede">For each company, the power of the data centers it owns is shown next to the power of the data centers where it is listed as a user. <br>Unlike the annual electricity totals (TWh) in Figures 1 and 2, <strong>megawatts (MW) measure instant electrical power capacity</strong>: how large each facility's grid draw is at full operation.</p>    <figure class="figure">
       <div class="chart-frame" id="chart-grouped">
         <p class="chart-placeholder">Loading chart…</p>
       </div>
@@ -29,8 +29,8 @@ export const section = `<section class="chart-section" id="grouped" aria-labelle
     </div>
     <div class="chart-text">
       <p>Nine of the ten major companies listed are based in the United States, underscoring how heavily frontier AI infrastructure is concentrated there, with ByteDance (464 MW) standing out as the main Chinese operator. </p>
-      <p>Comparing ownership and usage also reveals two distinct models: hyperscalers such as Google (3,179 MW), Meta (2,335 MW), Amazon (1,870 MW), and Microsoft (1,519 MW) both own and operate massive physical capacity. For context, <a href="https://www.energy.gov/ne/articles/infographic-how-much-power-does-nuclear-reactor-produce">the U.S. Department of Energy</a> notes that 1,000 MW (1 GW) is roughly the output of a large nuclear reactor, enough to power nearly a million homes.</p>
-      <p>By contrast, frontier AI labs like OpenAI (1,558 MW as a user) and Anthropic (1,212 MW) own zero operating capacity here, relying instead on cloud giants and specialized infrastructure providers such as Oracle (896 MW) and CoreWeave (679 MW).</p>
+      <p>Comparing ownership and usage also reveals two distinct models: hyperscalers such as Google (3,179 MW), Meta (2,335 MW), Amazon (1,870 MW), and Microsoft (1,519 MW) <strong>both own and operate massive physical capacity</strong>. For context, <a href="https://www.energy.gov/ne/articles/infographic-how-much-power-does-nuclear-reactor-produce">the U.S. Department of Energy</a> notes that 1,000 MW (1 GW) is roughly the output of a large nuclear reactor, enough to power nearly a million homes.</p>
+      <p>By contrast, frontier AI labs like OpenAI (1,558 MW as a user) and Anthropic (1,212 MW) <strong>own zero operating capacity here</strong>, relying instead on cloud giants and specialized infrastructure providers such as Oracle (896 MW) and CoreWeave (679 MW).</p>
       <p>Readers interested in exploring individual facilities in detail can jump to <a href="#packing">Figure 6</a>. Next, however, <a href="#heatmap">Figure 4</a> turns to a critical environmental question: how clean is the electricity powering the grids where these data centers are built?</p>
     </div>
   </div>

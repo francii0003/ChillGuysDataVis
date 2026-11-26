@@ -1,7 +1,7 @@
 export const section = `<section class="chart-section" id="waffle" aria-labelledby="waffle-title">
       <div class="container">
         <h2 id="waffle-title">How is data center electricity use split across the world?</h2>
-        <p class="chart-lede">One hundred squares represent all the electricity consumed by data centers worldwide in 2024. Each square is about 1% of the total, roughly 4.2 TWh.</p>
+        <p class="chart-lede">One hundred squares represent all the electricity consumed by data centers worldwide in 2024. <strong>Each square</strong> is about <strong>1% of the total, roughly 4.2 TWh</strong>.</p>
         <figure class="figure">
           <div class="chart-frame" id="chart-waffle">
             <p class="chart-placeholder">Loading chart…</p>
@@ -27,9 +27,9 @@ export const section = `<section class="chart-section" id="waffle" aria-labelled
           <p class="takeaway-text">of global data center electricity use in 2024 was consumed in just two countries, the United States and China, which together used <strong>285 TWh</strong>.</p>
         </div>
         <div class="chart-text">
-          <p>To get a sense of that scale, consider Italy: according to <a href="https://www.qualenergia.it/articoli/anno-2024-premia-rinnovabili-ma-target-2030-ancora-lontano/"> Terna</a>, the Italian grid operator, the country consumed 312.3 TWh of electricity in 2024. The data centers of just two countries therefore used about nine tenths of what Italy consumes in a whole year, and all the data centers in the world together (416 TWh) used about a third more than Italy. <br> This is a comparison of scale only, because the IEA figures cover every kind of data center, not just those that run AI.</p>
+          <p>To get a sense of that scale, consider Italy: according to <a href="https://www.qualenergia.it/articoli/anno-2024-premia-rinnovabili-ma-target-2030-ancora-lontano/"> Terna</a>, the Italian grid operator, the country consumed 312.3 TWh of electricity in 2024. The data centers of just two countries therefore used <strong>about nine tenths of what Italy consumes in a whole year</strong>, and all the data centers in the world together (416 TWh) used about a third more than Italy. <br> This is a comparison of scale only, because the IEA figures cover every kind of data center, not just those that run AI.</p>
           <p>Europe follows with 68 TWh (16%) and the rest of Asia Pacific with 48 TWh (about 12%). All other regions together, from Africa and Latin America to the Middle East, add up to 15 TWh, less than 4% of the total.</p>
-          <p>And this is only the starting point. In its Base Case, the IEA expects data center electricity use to more than double by 2030, from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that new demand is expected to come from.</p>
+          <p>And this is only the starting point. In its Base Case, the IEA expects data center electricity use to <strong>more than double by 2030</strong>, from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that new demand is expected to come from.</p>
         </div>
       </div>
     </section>`;

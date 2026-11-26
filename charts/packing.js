@@ -26,10 +26,10 @@ export const section = `<section class="chart-section" id="packing" aria-labelle
     </figure>
     <div class="takeaway">
       <p class="takeaway-figure">83.6%</p>
-      <p class="takeaway-text">of operating AI data center capacity in the sample is located in the United States (12,640 MW across 60 of the 76 sites): <strong>a handful of tech giants hold a near-monopoly on global compute</strong>.</p>
+      <p class="takeaway-text">of operating AI data center capacity in the sample is located in the <strong>United States (12,640 MW across 60 of the 76 sites)</strong>: <strong>a handful of tech giants hold a near-monopoly on global compute</strong>.</p>
     </div>
     <div class="chart-text">
-      <p><strong>A concentrated market across borders.</strong> Just as <a href="#heatmap">Figure 4</a> showed how unevenly clean electricity is distributed, Figure 6 highlights how tightly AI infrastructure is controlled by a small group of dominant operators. Six companies: Google (21.0% of total MW), Meta (15.4%), Amazon (12.4%), Microsoft (10.0%), SpaceXAI (8.6%), and Oracle (5.9%), account for nearly three-quarters (73.4%) of all operating capacity in the sample.</p>
+      <p><strong>A concentrated market across borders.</strong> Just as <a href="#heatmap">Figure 4</a> showed how unevenly clean electricity is distributed, Figure 6 highlights how tightly AI infrastructure is controlled by a small group of dominant operators. Six companies: Google (21.0% of total MW), Meta (15.4%), Amazon (12.4%), Microsoft (10.0%), SpaceXAI (8.6%), and Oracle (5.9%), account for <strong>nearly three-quarters (73.4%)</strong> of all operating capacity in the sample.</p>
       <p><strong>Global reach, local footprints.</strong> While the United States hosts 60 of the 76 facilities, major operators also extend into Europe and Asia Pacific, such as Google in the United Kingdom, Oracle in Indonesia, CoreWeave in Norway, and ByteDance in both China and Malaysia.</p>
     </div>
   </div>

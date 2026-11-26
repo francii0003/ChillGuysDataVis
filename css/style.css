@@ -1338,11 +1338,13 @@ a:hover {
   hyphens: none;
 }
 
-@media (min-width: 64rem) {
-  .chart-text p {
-    text-align: justify;
-    hyphens: auto;
-  }
+.lead strong,
+.questions strong,
+.chart-lede strong,
+.takeaway-text strong,
+.chart-text strong,
+.chart-note strong {
+  color: var(--green-deep);
 }
 
 @media (max-width: 64rem) {

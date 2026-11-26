@@ -99,7 +99,8 @@ export async function render(root) {
       .attr("height", y.bandwidth())
       .attr("tabindex", 0)
       .attr("role", "button")
-      .attr("aria-pressed", "false");
+      .attr("aria-pressed", "false")
+      .attr("aria-label", formatCellLabel);
 
     const tip = svg.append("g").attr("class", "heatmap-tip").attr("aria-hidden", "true");
     const tipBox = tip.append("rect").attr("rx", 3);

@@ -24,12 +24,12 @@ export const section = `<section class="chart-section" id="grouped" aria-labelle
       </figcaption>
     </figure>
     <div class="takeaway">
-      <p class="takeaway-figure">70%</p>
-      <p class="takeaway-text">of identified operating data center power is owned by just four US tech companies (<strong>Google, Meta, Amazon, and Microsoft</strong>) illustrating how tightly AI infrastructure is concentrated.</p>
+      <p class="takeaway-figure">≈70% <strong class="takeaway-subfigure">8,903 MW</strong></p>
+      <p class="takeaway-text"><strong>Google, Meta, Amazon and Microsoft</strong> own 68.6% of the operating power shown in the owner bars. Their combined capacity is comparable to the output of <strong>about nine typical nuclear reactors</strong>, using the <a href="https://www.energy.gov/ne/articles/infographic-how-much-power-does-nuclear-reactor-produce">U.S. Department of Energy</a> benchmark of 1 GW per reactor.</p>
     </div>
     <div class="chart-text">
       <p>Nine of the ten major companies listed are based in the United States, underscoring how heavily frontier AI infrastructure is concentrated there, with ByteDance (464 MW) standing out as the main Chinese operator. </p>
-      <p>Comparing ownership and usage also reveals two distinct models: hyperscalers such as Google (3,179 MW), Meta (2,335 MW), Amazon (1,870 MW), and Microsoft (1,519 MW) <strong>both own and operate massive physical capacity</strong>. For context, <a href="https://www.energy.gov/ne/articles/infographic-how-much-power-does-nuclear-reactor-produce">the U.S. Department of Energy</a> notes that 1,000 MW (1 GW) is roughly the output of a large nuclear reactor, enough to power nearly a million homes.</p>
+      <p>Comparing ownership and usage also reveals two distinct models: hyperscalers such as Google (3,179 MW), Meta (2,335 MW), Amazon (1,870 MW), and Microsoft (1,519 MW) <strong>both own and operate massive physical capacity</strong>.</p>
       <p>By contrast, frontier AI labs like OpenAI (1,558 MW as a user) and Anthropic (1,212 MW) <strong>own zero operating capacity here</strong>, relying instead on cloud giants and specialized infrastructure providers such as Oracle (896 MW) and CoreWeave (679 MW).</p>
       <p>Readers interested in exploring individual facilities in detail can jump to <a href="#packing">Figure 6</a>. Next, however, <a href="#heatmap">Figure 4</a> turns to a critical environmental question: how clean is the electricity powering the grids where these data centers are built?</p>
     </div>
@@ -62,7 +62,7 @@ function appendFlag(parent, country, x, y) {
     .attr("aria-hidden", "true");
 
   if (country === "us") {
-    g.append("rect").attr("width", 13).attr("height", 9).attr("rx", 1.2).attr("fill", "#FFFFFF");
+    g.append("rect").attr("width", 13).attr("height", 9).attr("rx", 1.2).attr("fill", "var(--paper)");
     [0, 2, 4, 6, 8].forEach(sy => {
       g.append("rect").attr("x", 0).attr("y", sy).attr("width", 13).attr("height", 1).attr("fill", "#DE2910");
     });

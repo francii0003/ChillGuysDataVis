@@ -88,7 +88,6 @@ export async function render(root) {
     tipList.append("li")
       .attr("class", "stacked-tip-empty")
       .text("Click a country or region name for its full mix, or click a bar segment for its source breakdown.");
-    tipEl.classed("is-on", false);
   }
 
   setEmptyTip();
@@ -116,6 +115,7 @@ export async function render(root) {
 
       const labelEl = textAt(svg, 126, y + 16, country, "end")
         .attr("class", "stacked-row-label")
+        .attr("data-country", country)
         .attr("tabindex", 0)
         .attr("role", "button")
         .attr("aria-pressed", "false")
@@ -206,8 +206,6 @@ export async function render(root) {
           .attr("class", "stacked-tip-item-text")
           .text(item.text);
       });
-
-      tipEl.classed("is-on", true);
     }
 
     function updateTip() {

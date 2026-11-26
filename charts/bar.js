@@ -1,13 +1,13 @@
 export const section = `<section class="chart-section" id="bar" aria-labelledby="bar-title">
   <div class="container">
     <h2 id="bar-title">How much new electricity will data centers need by 2030?</h2>
-    <p class="chart-lede">The increase in yearly consumption <strong>between 2024 and 2030 in the IEA Base Case</strong>, for the same areas as Figure 1.</p>
+    <p class="chart-lede">Annual data center electricity consumption in <strong>2024 and 2030 in the IEA Base Case</strong>. Each bar starts with the 2024 baseline in a lighter shade, followed by the projected increase in a solid color.</p>
     <figure class="figure">
       <div class="chart-frame" id="chart-bar">
         <p class="chart-placeholder">Loading chart…</p>
       </div>
       <figcaption class="figure-caption">
-        <p class="figure-title"><strong>Figure 2.</strong> Increase in data center electricity consumption from 2024 to 2030 (Base Case), in TWh.</p>
+        <p class="figure-title"><strong>Figure 2.</strong> 2024 data center electricity consumption and projected growth to 2030 (Base Case), in TWh.</p>
         <details class="chart-data-details">
           <summary class="chart-data-summary">
             <span><strong>Data:</strong> IEA, 2024-2030</span>
@@ -46,7 +46,7 @@ const slug = row => AREA_SLUG[row.area] ?? "other";
 export async function render(sectionRoot) {
   const frame = sectionRoot.querySelector("#chart-bar");
   const rows = await d3.csv("data/02_bar_dc_electricity_increase_2030.csv", d3.autoType);
-  rows.sort((a, b) => a.order - b.order);
+  rows.sort((a, b) => b.twh_2030_base - a.twh_2030_base || a.order - b.order);
 
   const fmtTwh = d3.format(",.0f");
   const fmtShare = d3.format(".1f");
@@ -58,7 +58,7 @@ export async function render(sectionRoot) {
   const plotH = vbHeight - margin.top - margin.bottom;
 
   const x = d3.scaleLinear()
-    .domain([0, d3.max(rows, d => d.increase_twh)])
+    .domain([0, d3.max(rows, d => d.twh_2030_base)])
     .nice()
     .range([0, plotW]);
 
@@ -72,8 +72,8 @@ export async function render(sectionRoot) {
     .attr("id", "bar-cells")
     .attr("class", "bar-grid")
     .attr("viewBox", `0 0 ${vbWidth} ${vbHeight}`)
-    .attr("role", "img")
-    .attr("aria-label", "Increase in annual data center electricity consumption from 2024 to 2030 by area.");
+    .attr("role", "group")
+    .attr("aria-label", "Annual data center electricity consumption in 2024 and projected consumption in 2030 by area.");
 
   const g = svg.append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
@@ -99,7 +99,7 @@ export async function render(sectionRoot) {
     .attr("x", plotW / 2)
     .attr("y", 32)
     .attr("text-anchor", "middle")
-    .text("Increase in annual consumption (TWh)");
+    .text("Annual electricity consumption (TWh)");
 
   const rowGroups = g.selectAll(".bar-row")
     .data(rows)
@@ -108,6 +108,7 @@ export async function render(sectionRoot) {
     .attr("tabindex", 0)
     .attr("role", "button")
     .attr("aria-pressed", "false")
+    .attr("aria-label", d => `${d.area}: ${d.twh_2024} TWh in 2024, ${d.twh_2030_base} TWh projected in 2030, an increase of ${d.increase_twh} TWh`)
     .attr("transform", d => `translate(0,${y(d.area)})`);
 
   rowGroups.append("text")
@@ -118,20 +119,31 @@ export async function render(sectionRoot) {
     .attr("text-anchor", "end")
     .text(d => d.area);
 
+  rowGroups.append("rect")
+    .attr("class", d => `bar-baseline waffle-${slug(d)}`)
+    .attr("height", y.bandwidth())
+    .attr("width", d => x(d.twh_2024));
+
   const bars = rowGroups.append("rect")
     .attr("class", d => `bar-rect waffle-${slug(d)}`)
-    .attr("x", 0)
-    .attr("y", 0)
+    .attr("x", d => x(d.twh_2024))
     .attr("height", y.bandwidth())
-    .attr("width", d => x(d.increase_twh))
-    .attr("rx", 2);
+    .attr("width", d => x(d.twh_2030_base) - x(d.twh_2024));
+
+  rowGroups.append("text")
+    .attr("class", "bar-value bar-value--baseline")
+    .attr("x", d => x(d.twh_2024) / 2)
+    .attr("y", y.bandwidth() / 2)
+    .attr("dy", "0.35em")
+    .attr("text-anchor", "middle")
+    .text(d => fmtTwh(d.twh_2024));
 
   rowGroups.append("text")
     .attr("class", "bar-value")
-    .attr("x", d => x(d.increase_twh) + 7)
+    .attr("x", d => x(d.twh_2030_base) + 7)
     .attr("y", y.bandwidth() / 2)
     .attr("dy", "0.35em")
-    .text(d => `+${fmtTwh(d.increase_twh)}`);
+    .text(d => fmtTwh(d.twh_2030_base));
 
   const tip = svg.append("g").attr("class", "bar-tip").attr("aria-hidden", "true");
   const tipBox = tip.append("rect").attr("rx", 3);
@@ -216,5 +228,8 @@ export async function render(sectionRoot) {
       }
     });
 
-  frame.replaceChildren(svg.node());
+  const scroll = d3.create("div").attr("class", "plot-scroll").attr("tabindex", 0)
+    .attr("role", "region").attr("aria-label", "Scrollable consumption chart");
+  scroll.node().append(svg.node());
+  frame.replaceChildren(scroll.node());
 }

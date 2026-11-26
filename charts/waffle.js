@@ -23,11 +23,11 @@ export const section = `<section class="chart-section" id="waffle" aria-labelled
           </figcaption>
         </figure>
         <div class="takeaway">
-          <p class="takeaway-figure">69%</p>
-          <p class="takeaway-text">of global data center electricity use in 2024 was consumed in just two countries, the United States and China, which together used <strong>285 TWh</strong>.</p>
+          <p class="takeaway-figure">69% <strong class="takeaway-subfigure">285 TWh</strong></p>
+          <p class="takeaway-text">The United States and China accounted for 69% of global data center electricity use in 2024. Together they used <strong>about 91% of Italy’s entire electricity demand that year</strong> (312.3 TWh, according to <a href="https://www.terna.it/en/media/press-releases/detail/electricity-consumption-2024">Terna</a>).</p>
         </div>
         <div class="chart-text">
-          <p>To get a sense of that scale, consider Italy: according to <a href="https://www.qualenergia.it/articoli/anno-2024-premia-rinnovabili-ma-target-2030-ancora-lontano/"> Terna</a>, the Italian grid operator, the country consumed 312.3 TWh of electricity in 2024. The data centers of just two countries therefore used <strong>about nine tenths of what Italy consumes in a whole year</strong>, and all the data centers in the world together (416 TWh) used about a third more than Italy. <br> This is a comparison of scale only, because the IEA figures cover every kind of data center, not just those that run AI.</p>
+          <p>Worldwide, data centers used 416 TWh in 2024, about a third more than Italy’s total electricity demand. The IEA figures cover all data center workloads, including AI.</p>
           <p>Europe follows with 68 TWh (16%) and the rest of Asia Pacific with 48 TWh (about 12%). All other regions together, from Africa and Latin America to the Middle East, add up to 15 TWh, less than 4% of the total.</p>
           <p>And this is only the starting point. In its Base Case, the IEA expects data center electricity use to <strong>more than double by 2030</strong>, from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that new demand is expected to come from.</p>
         </div>

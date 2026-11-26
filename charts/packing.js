@@ -3,7 +3,7 @@ import { figure } from "./figure.js";
 export const section = `<section class="chart-section" id="packing" aria-labelledby="packing-title">
   <div class="container">
     <h2 id="packing-title">How is AI computing capacity spread across countries, owners and sites?</h2>
-    <p class="chart-lede">XXX</p>
+    <p class="chart-lede">Circle area represents <strong>operating electrical capacity in megawatts (MW)</strong>. Select a region to see its data center owners, then select an owner to explore individual sites.</p>
     <figure class="figure">
       <div class="chart-frame" id="chart-packing">
         <p class="chart-placeholder">Loading chart…</p>
@@ -81,8 +81,8 @@ export async function render(root) {
   const regionColors = {
     "United States": "var(--area-us, #1F3A8A)",
     China: "var(--area-cn, #DE2910)",
-    Europe: "var(--area-eu, #FFCC00)",
-    "Rest of Asia Pacific": "var(--area-apac, #3AA6D8)",
+    Europe: "var(--area-eu)",
+    "Rest of Asia Pacific": "var(--area-apac)",
     "Rest of the world": "var(--area-row, #B4B9BE)"
   };
 
@@ -231,7 +231,8 @@ export async function render(root) {
     const maxScale = Math.max(0.18, node.r / 215);
     const text = labels.selectAll("text").data(next).join("text")
       .attr("class", "pack-label")
-      .classed("pack-label--light", item => !ownerUnknown(item) && (regionClass(item) === "pack-us" || regionClass(item) === "pack-cn"))
+      .classed("pack-label--light", item => !ownerUnknown(item)
+        && ["pack-us", "pack-cn", "pack-eu", "pack-apac"].includes(regionClass(item)))
       .attr("text-anchor", "middle");
 
     text.each(function (item) {

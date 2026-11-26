@@ -18,8 +18,9 @@ export async function regionalView(name, national, svg, legend, rowHeight, draw)
   const countriesByArea = d3.group(national, row => row.macroarea, row => row.country);
   for (const area of areas) {
     const count = countriesByArea.get(area)?.size ?? 0;
+    const suffix = count > countryLimit ? ` · Top ${countryLimit} countries` : " · countries";
     select.append("option").attr("value", area)
-      .text(count > countryLimit ? `${area} · Top ${countryLimit} countries` : `${area} · countries`);
+      .text(name === "heatmap" && count === 1 ? area : area + suffix);
   }
   function update() {
     const area = select.property("value");

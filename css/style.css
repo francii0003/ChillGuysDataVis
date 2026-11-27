@@ -1645,38 +1645,135 @@ a:hover {
     grid-column: 1;
   }
 }
-
-/* Figure 7 — Sankey diagram */
-.sankey-control {
+/* Figure 7 — Interactive 2-Stage 2023 US Sankey diagram */
+.sankey-nav-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--green);
+  border-radius: 3px;
+  background: var(--tint);
+  color: var(--green-deep);
+  font: inherit;
+  font-size: 0.875rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
-.sankey-control select {
-  padding: 0.35rem 0.65rem;
-  border: 1px solid var(--muted);
-  border-radius: 3px;
-  font: inherit;
-  color: var(--ink);
-  background: var(--paper);
+.sankey-nav-btn:hover {
+  background: var(--green);
+  color: var(--paper);
+}
+
+.sankey-swatches {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 1.1rem;
 }
 
 .sankey-summary {
   margin: 0 0 0.75rem;
+  font-size: 0.92rem;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.sankey-swatch {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 2px;
+  border: 1px solid rgba(37, 40, 42, 0.25);
+  background: var(--sankey-color);
 }
 
 #chart-sankey svg {
-  min-width: 620px;
+  min-width: 720px;
+}
+
+.sankey-col-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  fill: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.sankey-mid-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  fill: var(--ink);
 }
 
 .sankey-link {
   fill: none;
+  stroke: var(--sankey-color);
+  stroke-opacity: 0.4;
+  cursor: pointer;
 }
 
-.sankey-clean { --sankey-color: #007052; }
-.sankey-gap { --sankey-color: #94502B; }
-.sankey-demand { --sankey-color: var(--ink); }
-.sankey-link { stroke: var(--sankey-color); }
-.sankey-node { fill: var(--sankey-color); }
+@media (prefers-reduced-motion: no-preference) {
+  .sankey-link,
+  .sankey-node-group {
+    transition: stroke-opacity 0.15s ease, opacity 0.15s ease;
+  }
+}
+
+.sankey-node-group:focus {
+  outline: none;
+}
+
+.sankey-node-group:focus-visible .sankey-node {
+  stroke: var(--ink);
+  stroke-width: 2px;
+}
+
+.sankey-link.is-active {
+  stroke-opacity: 0.78;
+}
+
+.sankey-link.is-dimmed {
+  stroke-opacity: 0.1;
+}
+
+.sankey-svg-pill {
+  cursor: pointer;
+}
+
+.sankey-svg-pill rect {
+  fill: var(--tint);
+  stroke: var(--green);
+  stroke-width: 1.2px;
+}
+
+.sankey-svg-pill text {
+  font-size: 0.72rem;
+  font-weight: 700;
+  fill: var(--green-deep);
+}
+
+.sankey-svg-pill:hover rect,
+.sankey-svg-pill:focus-visible rect {
+  fill: var(--green);
+}
+
+.sankey-svg-pill:hover text,
+.sankey-svg-pill:focus-visible text {
+  fill: var(--paper);
+}
+
+.sankey-svg-pill:focus {
+  outline: none;
+}
+
+.sankey-total  { --sankey-color: var(--ink); }
+.sankey-clean  { --sankey-color: var(--green); }
+.sankey-fossil { --sankey-color: #94502B; }
+.sankey-other  { --sankey-color: var(--area-row); }
+.sankey-ai     { --sankey-color: var(--blue); }
+.sankey-conv   { --sankey-color: #2B5B84; }
+.sankey-net    { --sankey-color: var(--area-apac); }
+.sankey-infra  { --sankey-color: #C07A00; }
+.sankey-node   { fill: var(--sankey-color); }

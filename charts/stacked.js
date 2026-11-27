@@ -29,12 +29,13 @@ export const section = `<section class="chart-section" id="stacked" aria-labelle
     </figure>
     <div class="takeaway">
       <p class="takeaway-figure">57.4%</p>
-      <p class="takeaway-text">of electricity across the 94 economies in the 2025 dataset still comes from fossil fuels (17,659 TWh): <strong>even as grids slowly shift toward cleaner energy, coal and gas remain the dominant backbone</strong> of global power generation.</p>
+      <p class="takeaway-text">of electricity across the 94 economies in the 2025 dataset still comes from fossil fuels (<strong>17,659 TWh</strong>): even as grids slowly shift toward cleaner energy, <strong>coal and gas remain the dominant backbone</strong> of global power generation.</p>
     </div>
     <div class="chart-text">
-      <p><strong>Slow movement, heavy fossil inertia.</strong> As <a href="#heatmap">Figure 4</a> shows, carbon intensity has been edging down across many regions, yet more than half of all electricity in 2025 still came from fossil fuels—ahead of <strong>renewables (33.6%) and nuclear (9.0%)</strong>. Where grids remain locked into coal and gas, growing data center demand keeps high-carbon generation running longer.</p>
-      <p><strong>Credit where it’s due, and pushback where it’s not.</strong> Grids like Norway (99.0% renewables) and France (68.3% nuclear and 26.6% renewables, leaving just 5.1% fossil) show what a low-carbon power system looks like in practice. At the other extreme, major producers such as Saudi Arabia (95.8% fossil), Iran (94.8%), Indonesia (84.2%), South Africa (82.2%), and India (73.4%) still rely overwhelmingly on fossil generation—underscoring how heavily host location shapes the climate footprint of AI infrastructure.</p>
+      <p>As <a href="#heatmap">Figure 4</a> shows, carbon intensity has been edging down across many regions, yet movement is slow and fossil inertia remains heavy: more than half of all electricity in 2025 still came from fossil fuels, ahead of <strong>renewables (33.6%)</strong> and <strong>nuclear (9.0%)</strong>. Where grids remain locked into coal and gas, growing data center demand keeps high-carbon generation running longer.</p>
+      <p>It is only fair to give credit where it is due, and push back where it is not. Grids like <strong>Norway (99.0% renewables)</strong> and <strong>France (68.3% nuclear and 26.6% renewables, leaving just 5.1% fossil)</strong> show what a low-carbon power system looks like in practice. At the other extreme, major producers such as <strong>Saudi Arabia (95.8% fossil)</strong>, <strong>Iran (94.8%)</strong>, <strong>Indonesia (84.2%)</strong>, <strong>South Africa (82.2%)</strong>, and <strong>India (73.4%)</strong> still rely overwhelmingly on fossil generation, underscoring how heavily host location shapes the climate footprint of AI infrastructure.</p>
     </div>
+  </div>
 </section>`;
 
 export async function render(root) {

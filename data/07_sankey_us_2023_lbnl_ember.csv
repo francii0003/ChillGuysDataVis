@@ -1,0 +1,19 @@
+stage,source,target,value,pct_of_stage,type
+1_mix,US Electricity 2023,Clean Power (Renewables + Nuclear),1628.0,40.7,clean
+1_mix,US Electricity 2023,Fossil & Other,2372.0,59.3,fossil
+2_sector,Clean Power (Renewables + Nuclear),Data Center Electricity,71.63,4.4,clean
+2_sector,Clean Power (Renewables + Nuclear),Other US Electricity Uses,1556.37,95.6,other
+2_sector,Fossil & Other,Data Center Electricity,104.37,4.4,fossil
+2_sector,Fossil & Other,Other US Electricity Uses,2267.63,95.6,other
+3_component,Data Center Electricity,AI Specialized Servers,42.0,23.9,ai
+3_component,Data Center Electricity,Conventional Servers,58.0,33.0,conv
+3_component,Data Center Electricity,Storage & Network,23.2,13.2,net
+3_component,Data Center Electricity,Infrastructure (Cooling & PUE),52.8,30.0,infra
+4_facility,AI Specialized Servers,Hyperscale & Colocation,40.0,22.7,ai
+4_facility,AI Specialized Servers,Internal & Enterprise,2.0,1.1,ai
+4_facility,Conventional Servers,Hyperscale & Colocation,40.0,22.7,conv
+4_facility,Conventional Servers,Internal & Enterprise,18.0,10.2,conv
+4_facility,Storage & Network,Hyperscale & Colocation,18.0,10.2,net
+4_facility,Storage & Network,Internal & Enterprise,5.2,3.0,net
+4_facility,Infrastructure (Cooling & PUE),Hyperscale & Colocation,41.0,23.3,infra
+4_facility,Infrastructure (Cooling & PUE),Internal & Enterprise,11.8,6.7,infra

@@ -24,12 +24,12 @@ export const section = `<section class="chart-section" id="waffle" aria-labelled
         </figure>
         <div class="takeaway">
           <p class="takeaway-figure">69% <strong class="takeaway-subfigure">285 TWh</strong></p>
-          <p class="takeaway-text">The United States and China accounted for 69% of global data center electricity use in 2024. Together they used <strong>about 91% of Italy’s entire electricity demand that year</strong> (312.3 TWh, according to <a href="https://www.terna.it/en/media/press-releases/detail/electricity-consumption-2024">Terna</a>).</p>
+          <p class="takeaway-text">The United States and China accounted for 69% of global data center electricity use in 2024. Together they consumed <strong>about 91% of Italy’s entire annual electricity demand</strong> (312.3 TWh, according to <a href="https://www.qualenergia.it/articoli/anno-2024-premia-rinnovabili-ma-target-2030-ancora-lontano/">Terna</a>).</p>
         </div>
         <div class="chart-text">
-          <p>Worldwide, data centers used 416 TWh in 2024, about a third more than Italy’s total electricity demand. The IEA figures cover all data center workloads, including AI.</p>
-          <p>Europe follows with 68 TWh (16%) and the rest of Asia Pacific with 48 TWh (about 12%). All other regions together, from Africa and Latin America to the Middle East, add up to 15 TWh, less than 4% of the total.</p>
-          <p>And this is only the starting point. In its Base Case, the IEA expects data center electricity use to <strong>more than double by 2030</strong>, from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that new demand is expected to come from.</p>
+          <p>Worldwide, data centers used 416 TWh in 2024: roughly a third more than Italy’s total power demand. The IEA figures cover all data center workloads, including AI, as well as cooling and facility overhead.</p>
+          <p>Europe follows with 68 TWh (16%) and the rest of Asia Pacific with 48 TWh (about 12%). All other regions combined, across Africa, Latin America, and the Middle East, account for 15 TWh, or just under 4% of the global total.</p>
+          <p>And this is only the baseline. In its Base Case, the IEA projects data center electricity use to <strong>more than double by 2030</strong>, rising from 416 to 946 TWh. <a href="#bar">Figure 2</a> shows where that surge is expected to come from.</p>
         </div>
       </div>
     </section>`;
